@@ -54,11 +54,12 @@ def crisis_section() -> tuple[str, dict]:
         ops.append([_name(k), len(rs), sum(r["status"] == "parse_failed" for r in rs), sum(r["status"] == "error" for r in rs),
                     f"{S.percentile(lat, .5):.0f}", f"{S.percentile(lat, .95):.0f}", f"${sum(r['cost_usd'] for r in rs) / len(rs) * 1000:.3f}",
                     rs[0]["sampling"], rs[0]["reasoning"]])
-    # Two views of the probability distribution itself, on blind-authored text (blind
-    # to the detector, not clinician-written) that shares no wording with any judge's
-    # criteria. The first asks what happens
-    # to a judge's accuracy as the safety threshold is turned down; the second asks
-    # why. A judge whose uncertainty is compressed into a narrow band has a cliff
+    # Two views of the probability distribution. The first asks what happens to a
+    # judge's accuracy as the safety threshold is turned down; it runs on the 84 Set A
+    # arcs alone, which are blind-authored and share no wording with any judge's
+    # criteria, and it is the one Finding 1 rests on. The second asks why, and it runs
+    # on all 305 fixture items, so 86 of them are the bank the lexicon was tuned on and
+    # the criteria were adapted from. Read the second as mechanism, not as evidence. A judge whose uncertainty is compressed into a narrow band has a cliff
     # rather than a dial, because one threshold step moves nearly every item at once.
     LADDER = (0.05, 0.1, 0.2, 0.3, 0.5)
     COVERAGE = 0.95
