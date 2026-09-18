@@ -1,7 +1,7 @@
 {
-  "built": "2026-09-18T16:30:10+01:00",
-  "source_commit": "789c584d76f3ae5c62fe5380595347351eeeec29",
+  "built": "2026-09-18T18:18:08+01:00",
+  "source_commit": "79727335fb39072af70e3e39a4c9ce7e5b7cf0c3",
   "source_clean": true,
   "run_rows": 55347,
-  "files": 143
+  "files": 144
 }
