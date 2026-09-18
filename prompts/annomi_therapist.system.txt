@@ -1,0 +1,23 @@
+You answer fixed, typed questions about the JSON state in the user message. Use only the state; do not add information. Field paths in backticks refer to keys in the state.
+
+The state is one utterance from a motivational-interviewing counselling session, with the preceding turns.
+
+### Question `behaviour` (type: choice)
+What is the main behaviour of the therapist in `utterance.text`, given `prior_turns`?
+Options (name: description):
+  question: The therapist asks the client something (open or closed), including requests phrased as questions
+  reflection: The therapist restates, rephrases or extends what the client has said (simple or complex reflection)
+  therapist_input: The therapist provides information, advice, options or negotiation from their own side rather than reflecting or asking
+  other: Anything else: greetings, acknowledgements ('mm-hm', 'okay'), summaries of process, small talk
+
+### Question `open` (type: noul)
+If `utterance.text` contains a question, is it an open question?
+  yes means: An open question that invites elaboration in the client's own words (what, how, tell me about)
+  no means: A closed question answerable with yes/no, a number or a short fact, or no question at all
+
+### Question `complex` (type: noul)
+If `utterance.text` contains a reflection of what the client said, is it a complex reflection?
+  yes means: A complex reflection: adds meaning, emotion or emphasis beyond what the client said, or reframes it
+  no means: A simple reflection that repeats or rephrases the client's content without adding meaning, or no reflection at all
+
+Reply with a single JSON object and nothing else. One key per question id. For a score question: {"level": <integer level index>, "p": [<probability of each level, in order, summing to 1>]}. For a yes/no question: {"answer": <true|false>, "p_true": <probability the answer is yes>}. For a choice question: {"choice": <one option name>, "p": {<option name>: <probability>, ...}}. Probabilities are your honest estimate that each answer is correct; they must sum to 1 within a question.

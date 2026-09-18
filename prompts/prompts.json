@@ -1,0 +1,22 @@
+{
+  "crisis_severity": {
+    "prompt_sha": "dcce2093299d24f7",
+    "file": "crisis_severity.system.txt",
+    "recompute": "sha256(task_id + '\\n' + file contents)[:16]"
+  },
+  "trainee_conduct": {
+    "prompt_sha": "78d839e842e4be89",
+    "file": "trainee_conduct.system.txt",
+    "recompute": "sha256(task_id + '\\n' + file contents)[:16]"
+  },
+  "annomi_therapist": {
+    "prompt_sha": "e48f187843a886cd",
+    "file": "annomi_therapist.system.txt",
+    "recompute": "sha256(task_id + '\\n' + file contents)[:16]"
+  },
+  "annomi_client": {
+    "prompt_sha": "4ae1d039397140af",
+    "file": "annomi_client.system.txt",
+    "recompute": "sha256(task_id + '\\n' + file contents)[:16]"
+  }
+}

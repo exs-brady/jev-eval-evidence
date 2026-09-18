@@ -1,0 +1,733 @@
+item_id,expected,anthropic:claude-haiku-4-5.verbalised::status,anthropic:claude-haiku-4-5.verbalised::level,anthropic:claude-haiku-4-5.verbalised::p,anthropic:claude-opus-5.verbalised::status,anthropic:claude-opus-5.verbalised::level,anthropic:claude-opus-5.verbalised::p,anthropic:claude-sonnet-4-5-20250929.verbalised::status,anthropic:claude-sonnet-4-5-20250929.verbalised::level,anthropic:claude-sonnet-4-5-20250929.verbalised::p,anthropic:claude-sonnet-5.verbalised::status,anthropic:claude-sonnet-5.verbalised::level,anthropic:claude-sonnet-5.verbalised::p,local:qwen36-35b-mtplx.verbalised::status,local:qwen36-35b-mtplx.verbalised::level,local:qwen36-35b-mtplx.verbalised::p,local:qwen36-mtplx.verbalised::status,local:qwen36-mtplx.verbalised::level,local:qwen36-mtplx.verbalised::p,openai:gpt-4.1.verbalised::status,openai:gpt-4.1.verbalised::level,openai:gpt-4.1.verbalised::p,openai:gpt-5.4-mini.verbalised::status,openai:gpt-5.4-mini.verbalised::level,openai:gpt-5.4-mini.verbalised::p,openai:gpt-5.5.verbalised::status,openai:gpt-5.5.verbalised::level,openai:gpt-5.5.verbalised::p,typesafe:jev-1.13.0.native::status,typesafe:jev-1.13.0.native::level,typesafe:jev-1.13.0.native::p
+omission:anthropic:1d83fe02:0:e884f400:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.1,,,,ok,False,0.05,ok,False,0.05,ok,False,0.0,ok,False,0.01,,,,ok,False,0.12,ok,False,0.01,ok,False,0.05
+omission:anthropic:1d83fe02:0:e884f400:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.15,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:0:e884f400:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:1d83fe02:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:1:2aa19c76:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:anthropic:1d83fe02:1:2aa19c76:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.06,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:1:2aa19c76:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.05,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:1d83fe02:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:2:38245176:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:1d83fe02:2:38245176:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:anthropic:1d83fe02:2:38245176:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:1d83fe02:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:1d83fe02:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:3:83c2dd15:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.05
+omission:anthropic:1d83fe02:3:83c2dd15:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:3:83c2dd15:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:1d83fe02:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:4:53ff07e9:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.1,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.05
+omission:anthropic:1d83fe02:4:53ff07e9:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,ok,False,0.02,ok,False,0.02
+omission:anthropic:1d83fe02:4:53ff07e9:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:1d83fe02:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:5:f2a38638:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:1d83fe02:5:f2a38638:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:1d83fe02:5:f2a38638:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:1d83fe02:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:1d83fe02:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:6:73ca4aa5:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.05
+omission:anthropic:1d83fe02:6:73ca4aa5:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:6:73ca4aa5:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:1d83fe02:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:1d83fe02:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:1d83fe02:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:65a31b2c:0:2c786744:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:65a31b2c:0:2c786744:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:65a31b2c:0:2c786744:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:anthropic:65a31b2c:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:65a31b2c:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:65a31b2c:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:65a31b2c:1:395ad5f6:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.06
+omission:anthropic:65a31b2c:1:395ad5f6:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.15,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.06,ok,False,0.01,ok,False,0.03
+omission:anthropic:65a31b2c:1:395ad5f6:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:65a31b2c:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:anthropic:65a31b2c:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:65a31b2c:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:65a31b2c:2:f66f059d:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.05,ok,False,0.01,ok,False,0.04
+omission:anthropic:65a31b2c:2:f66f059d:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:65a31b2c:2:f66f059d:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:anthropic:65a31b2c:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:65a31b2c:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:65a31b2c:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:65a31b2c:3:108dfc79:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.05
+omission:anthropic:65a31b2c:3:108dfc79:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:65a31b2c:3:108dfc79:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:anthropic:65a31b2c:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:65a31b2c:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:65a31b2c:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:65a31b2c:4:264cde71:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:anthropic:65a31b2c:4:264cde71:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:anthropic:65a31b2c:4:264cde71:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:65a31b2c:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:65a31b2c:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:65a31b2c:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:65a31b2c:5:be44e195:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:anthropic:65a31b2c:5:be44e195:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:65a31b2c:5:be44e195:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:65a31b2c:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:65a31b2c:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:65a31b2c:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:65a31b2c:6:c468aa05:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:65a31b2c:6:c468aa05:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:65a31b2c:6:c468aa05:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:65a31b2c:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:65a31b2c:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:65a31b2c:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:7b4f0f6c:0:f36a6e1c:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.04
+omission:anthropic:7b4f0f6c:0:f36a6e1c:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.04,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.04
+omission:anthropic:7b4f0f6c:0:f36a6e1c:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:7b4f0f6c:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:7b4f0f6c:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:7b4f0f6c:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:7b4f0f6c:2:718729e3:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:7b4f0f6c:2:718729e3:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:7b4f0f6c:2:718729e3:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:7b4f0f6c:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:7b4f0f6c:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:7b4f0f6c:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:7b4f0f6c:3:de288df1:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:7b4f0f6c:3:de288df1:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:7b4f0f6c:3:de288df1:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:anthropic:7b4f0f6c:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:7b4f0f6c:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:7b4f0f6c:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:7b4f0f6c:4:884d6940:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:anthropic:7b4f0f6c:4:884d6940:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:7b4f0f6c:4:884d6940:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:anthropic:7b4f0f6c:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:7b4f0f6c:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:7b4f0f6c:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:7b4f0f6c:5:95ee20fa:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:7b4f0f6c:5:95ee20fa:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:7b4f0f6c:5:95ee20fa:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:7b4f0f6c:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:7b4f0f6c:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:7b4f0f6c:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:7b4f0f6c:6:eb649cd6:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:7b4f0f6c:6:eb649cd6:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:7b4f0f6c:6:eb649cd6:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:anthropic:7b4f0f6c:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:7b4f0f6c:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:7b4f0f6c:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:882a4b64:0:f35799c2:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:882a4b64:0:f35799c2:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.05,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:0:f35799c2:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:882a4b64:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:1:b3574126:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.09,ok,False,0.01,ok,False,0.04
+omission:anthropic:882a4b64:1:b3574126:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:882a4b64:1:b3574126:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:882a4b64:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:882a4b64:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:2:73c65dbd:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:882a4b64:2:73c65dbd:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:2:73c65dbd:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.07,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:882a4b64:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:3:5e7c11cf:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.15,ok,False,0.04,ok,False,0.05,ok,False,0.05,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:882a4b64:3:5e7c11cf:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:anthropic:882a4b64:3:5e7c11cf:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:882a4b64:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:882a4b64:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:4:d7d5d873:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.15,,,,ok,False,0.05,ok,False,0.05,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.05
+omission:anthropic:882a4b64:4:d7d5d873:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:4:d7d5d873:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:882a4b64:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:5:83bcd804:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.05,ok,False,0.05,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.05
+omission:anthropic:882a4b64:5:83bcd804:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:882a4b64:5:83bcd804:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:882a4b64:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:882a4b64:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:882a4b64:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:882a4b64:6:40e2e804:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:882a4b64:6:40e2e804:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:6:40e2e804:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.98,ok,False,0.01,ok,False,0.02
+omission:anthropic:882a4b64:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:882a4b64:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:882a4b64:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:9d29b3af:0:8b69d266:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:0:8b69d266:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:0:8b69d266:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.15,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.06,ok,False,0.01,ok,False,0.05
+omission:anthropic:9d29b3af:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:9d29b3af:1:c185a6f1:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:9d29b3af:1:c185a6f1:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:1:c185a6f1:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:9d29b3af:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:2:163b650e:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:2:163b650e:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:9d29b3af:2:163b650e:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:9d29b3af:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:9d29b3af:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:9d29b3af:3:dabfc544:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:3:dabfc544:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:3:dabfc544:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:anthropic:9d29b3af:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:9d29b3af:4:9b65e6f4:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:9d29b3af:4:9b65e6f4:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:4:9b65e6f4:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:9d29b3af:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:9d29b3af:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:9d29b3af:5:8783211a:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:5:8783211a:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:9d29b3af:5:8783211a:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:anthropic:9d29b3af:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:9d29b3af:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:9d29b3af:6:255c3706:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:anthropic:9d29b3af:6:255c3706:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:9d29b3af:6:255c3706:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:anthropic:9d29b3af:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:9d29b3af:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:9d29b3af:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:d37ddf75:0:83133eff:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.05,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,ok,False,0.03,ok,False,0.05
+omission:anthropic:d37ddf75:0:83133eff:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:d37ddf75:0:83133eff:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:d37ddf75:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:d37ddf75:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:1:ab314bd5:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.05
+omission:anthropic:d37ddf75:1:ab314bd5:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:1:ab314bd5:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:d37ddf75:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:2:714efe0a:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:d37ddf75:2:714efe0a:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.05
+omission:anthropic:d37ddf75:2:714efe0a:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:d37ddf75:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:d37ddf75:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:3:eb86d457:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:d37ddf75:3:eb86d457:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:anthropic:d37ddf75:3:eb86d457:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:d37ddf75:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:d37ddf75:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:4:06c2988a:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.07,ok,False,0.01,ok,False,0.05
+omission:anthropic:d37ddf75:4:06c2988a:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.15,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.06,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:4:06c2988a:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:anthropic:d37ddf75:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:d37ddf75:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:d37ddf75:5:830aa09c:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.1,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:5:830aa09c:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:5:830aa09c:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:d37ddf75:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:d37ddf75:6:14a9a974:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.15,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.08,ok,False,0.02,ok,False,0.09
+omission:anthropic:d37ddf75:6:14a9a974:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.15,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.08,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:6:14a9a974:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:d37ddf75:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.09
+omission:anthropic:d37ddf75:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:d37ddf75:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e36db5de:0:4d9749c3:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.05,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.98,ok,False,0.01,ok,False,0.06
+omission:anthropic:e36db5de:0:4d9749c3:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:e36db5de:0:4d9749c3:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:e36db5de:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:anthropic:e36db5de:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:e36db5de:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e36db5de:1:b36e4eae:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.15,,,,ok,False,0.05,ok,False,0.05,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.09
+omission:anthropic:e36db5de:1:b36e4eae:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:e36db5de:1:b36e4eae:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.05
+omission:anthropic:e36db5de:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.09
+omission:anthropic:e36db5de:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e36db5de:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:e36db5de:2:8dc2e31e:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.06
+omission:anthropic:e36db5de:2:8dc2e31e:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,ok,False,0.01,ok,False,0.04
+omission:anthropic:e36db5de:2:8dc2e31e:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:anthropic:e36db5de:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:anthropic:e36db5de:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e36db5de:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e36db5de:3:d25dcf6d:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.04,ok,False,0.02,ok,False,0.05,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:e36db5de:3:d25dcf6d:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:anthropic:e36db5de:3:d25dcf6d:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.04
+omission:anthropic:e36db5de:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:e36db5de:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:e36db5de:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e36db5de:4:2d254dd0:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:e36db5de:4:2d254dd0:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:e36db5de:4:2d254dd0:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:anthropic:e36db5de:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e36db5de:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:e36db5de:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e36db5de:6:de988b04:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.05
+omission:anthropic:e36db5de:6:de988b04:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:e36db5de:6:de988b04:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:e36db5de:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:e36db5de:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:e36db5de:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:e8584dcf:1:a8d771f4:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:e8584dcf:1:a8d771f4:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,ok,False,0.01,ok,False,0.02
+omission:anthropic:e8584dcf:1:a8d771f4:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:e8584dcf:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e8584dcf:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:e8584dcf:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e8584dcf:2:130f96a8:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:e8584dcf:2:130f96a8:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:anthropic:e8584dcf:2:130f96a8:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.04
+omission:anthropic:e8584dcf:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e8584dcf:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:e8584dcf:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e8584dcf:3:7788f3ff:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.05,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:e8584dcf:3:7788f3ff:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:e8584dcf:3:7788f3ff:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.05
+omission:anthropic:e8584dcf:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:e8584dcf:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:e8584dcf:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:e8584dcf:4:bb1f79e1:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.05,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:e8584dcf:4:bb1f79e1:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:anthropic:e8584dcf:4:bb1f79e1:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:e8584dcf:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e8584dcf:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:e8584dcf:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e8584dcf:5:9de3617e:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:anthropic:e8584dcf:5:9de3617e:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:e8584dcf:5:9de3617e:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.06,ok,False,0.01,ok,False,0.05
+omission:anthropic:e8584dcf:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:e8584dcf:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:e8584dcf:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:e8584dcf:6:c6ddc35f:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.15,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:anthropic:e8584dcf:6:c6ddc35f:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:anthropic:e8584dcf:6:c6ddc35f:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:anthropic:e8584dcf:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:e8584dcf:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:e8584dcf:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:f6918ab5:0:600a633c:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:0:600a633c:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:0:600a633c:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.15,ok,False,0.04,ok,False,0.05,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:anthropic:f6918ab5:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:f6918ab5:1:348adf30:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:1:348adf30:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:anthropic:f6918ab5:1:348adf30:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.05
+omission:anthropic:f6918ab5:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:f6918ab5:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:anthropic:f6918ab5:2:b95148e6:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:2:b95148e6:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.98,ok,False,0.01,ok,False,0.04
+omission:anthropic:f6918ab5:2:b95148e6:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:anthropic:f6918ab5:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:anthropic:f6918ab5:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:f6918ab5:3:7a9471b1:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:3:7a9471b1:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:3:7a9471b1:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:4:d8599e88:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:4:d8599e88:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:4:d8599e88:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:5:9344ea0e:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:5:9344ea0e:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:5:9344ea0e:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.01,ok,False,0.01,ok,False,0.02
+omission:anthropic:f6918ab5:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:f6918ab5:6:09806b72:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:anthropic:f6918ab5:6:09806b72:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:anthropic:f6918ab5:6:09806b72:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.05
+omission:anthropic:f6918ab5:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:anthropic:f6918ab5:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:anthropic:f6918ab5:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:1d83fe02:0:3d6ad459:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:openai:1d83fe02:0:3d6ad459:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.01,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:0:3d6ad459:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:1d83fe02:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:1:5212c589:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:1d83fe02:1:5212c589:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:1:5212c589:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:1d83fe02:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:2:08a88488:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:openai:1d83fe02:2:08a88488:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:2:08a88488:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.06,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:1d83fe02:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:3:b9851c2e:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:openai:1d83fe02:3:b9851c2e:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:3:b9851c2e:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.05,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.13
+omission:openai:1d83fe02:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:1d83fe02:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.13
+omission:openai:1d83fe02:4:a7ae408b:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:openai:1d83fe02:4:a7ae408b:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:1d83fe02:4:a7ae408b:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:1d83fe02:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:1d83fe02:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:5:66404d89:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:1d83fe02:5:66404d89:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.99,ok,False,0.01,ok,False,0.03
+omission:openai:1d83fe02:5:66404d89:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:1d83fe02:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:1d83fe02:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:1d83fe02:6:282934b7:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.07,ok,False,0.01,ok,False,0.05
+omission:openai:1d83fe02:6:282934b7:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:openai:1d83fe02:6:282934b7:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.02
+omission:openai:1d83fe02:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:1d83fe02:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:1d83fe02:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:0:2628ae88:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:65a31b2c:0:2628ae88:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.99,ok,False,0.01,ok,False,0.03
+omission:openai:65a31b2c:0:2628ae88:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:65a31b2c:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:65a31b2c:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:1:ded02cf3:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:65a31b2c:1:ded02cf3:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:1:ded02cf3:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:65a31b2c:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:65a31b2c:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:65a31b2c:2:4a0e95b1:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:65a31b2c:2:4a0e95b1:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:65a31b2c:2:4a0e95b1:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:65a31b2c:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:65a31b2c:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:3:ef9f2b9d:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:65a31b2c:3:ef9f2b9d:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:3:ef9f2b9d:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:65a31b2c:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:4:4516e642:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:openai:65a31b2c:4:4516e642:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:openai:65a31b2c:4:4516e642:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:openai:65a31b2c:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:65a31b2c:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:65a31b2c:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:65a31b2c:5:43a263d8:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.01,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:65a31b2c:5:43a263d8:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:5:43a263d8:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:65a31b2c:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:6:7d76c141:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:65a31b2c:6:7d76c141:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:6:7d76c141:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:65a31b2c:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:65a31b2c:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:65a31b2c:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:7b4f0f6c:0:46ef40a2:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:openai:7b4f0f6c:0:46ef40a2:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:7b4f0f6c:0:46ef40a2:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:7b4f0f6c:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:7b4f0f6c:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:7b4f0f6c:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:7b4f0f6c:1:b370811f:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:openai:7b4f0f6c:1:b370811f:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:7b4f0f6c:1:b370811f:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.98,ok,False,0.01,ok,False,0.1
+omission:openai:7b4f0f6c:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:7b4f0f6c:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:7b4f0f6c:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.1
+omission:openai:7b4f0f6c:2:7c630247:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.05,ok,False,0.01,ok,False,0.04
+omission:openai:7b4f0f6c:2:7c630247:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:openai:7b4f0f6c:2:7c630247:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:openai:7b4f0f6c:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:7b4f0f6c:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:7b4f0f6c:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:7b4f0f6c:3:fa0e067e:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:7b4f0f6c:3:fa0e067e:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.01,ok,False,0.01,ok,False,0.03
+omission:openai:7b4f0f6c:3:fa0e067e:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:7b4f0f6c:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:7b4f0f6c:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:7b4f0f6c:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:7b4f0f6c:4:57436fe5:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.04
+omission:openai:7b4f0f6c:4:57436fe5:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:7b4f0f6c:4:57436fe5:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:openai:7b4f0f6c:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:7b4f0f6c:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:7b4f0f6c:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:7b4f0f6c:5:f3a84d63:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:7b4f0f6c:5:f3a84d63:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:7b4f0f6c:5:f3a84d63:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.15,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,ok,False,0.01,ok,False,0.06
+omission:openai:7b4f0f6c:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:7b4f0f6c:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:7b4f0f6c:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:7b4f0f6c:6:53071cb8:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,ok,False,0.01,ok,False,0.04
+omission:openai:7b4f0f6c:6:53071cb8:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:7b4f0f6c:6:53071cb8:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:7b4f0f6c:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:7b4f0f6c:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:7b4f0f6c:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:882a4b64:0:67162778:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.05,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.01,ok,False,0.01,ok,False,0.05
+omission:openai:882a4b64:0:67162778:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:openai:882a4b64:0:67162778:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:882a4b64:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:882a4b64:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:882a4b64:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:882a4b64:1:37bda888:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.15,,,,ok,False,0.05,ok,False,0.05,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.11
+omission:openai:882a4b64:1:37bda888:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.15,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:882a4b64:1:37bda888:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.05,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:openai:882a4b64:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.11
+omission:openai:882a4b64:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:882a4b64:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:882a4b64:2:3f4a618a:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.05
+omission:openai:882a4b64:2:3f4a618a:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.03
+omission:openai:882a4b64:2:3f4a618a:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:882a4b64:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:882a4b64:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:882a4b64:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:882a4b64:3:5815d412:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:openai:882a4b64:3:5815d412:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.01,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:882a4b64:3:5815d412:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.02
+omission:openai:882a4b64:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:882a4b64:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:882a4b64:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:882a4b64:4:1fee96d2:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:openai:882a4b64:4:1fee96d2:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.04
+omission:openai:882a4b64:4:1fee96d2:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:openai:882a4b64:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:882a4b64:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:882a4b64:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:882a4b64:5:45ba918e:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:882a4b64:5:45ba918e:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:882a4b64:5:45ba918e:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:882a4b64:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:882a4b64:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:882a4b64:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:882a4b64:6:c05c6ce2:t1,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:882a4b64:6:c05c6ce2:t2,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.05,ok,False,0.01,ok,False,0.02
+omission:openai:882a4b64:6:c05c6ce2:t3,"{'omission': True, 'asks': 'never'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:882a4b64:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:882a4b64:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:882a4b64:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:9d29b3af:1:e87db448:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:openai:9d29b3af:1:e87db448:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:9d29b3af:1:e87db448:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,ok,False,0.01,ok,False,0.05
+omission:openai:9d29b3af:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:9d29b3af:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:9d29b3af:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:9d29b3af:2:f8cad1b3:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:9d29b3af:2:f8cad1b3:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:9d29b3af:2:f8cad1b3:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:9d29b3af:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:9d29b3af:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:9d29b3af:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:9d29b3af:3:682632f9:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,ok,False,0.01,ok,False,0.03
+omission:openai:9d29b3af:3:682632f9:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:openai:9d29b3af:3:682632f9:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,error,,,ok,False,0.05
+omission:openai:9d29b3af:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:9d29b3af:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:9d29b3af:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:9d29b3af:4:1c22006d:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.01,ok,False,0.01,ok,False,0.04
+omission:openai:9d29b3af:4:1c22006d:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:9d29b3af:4:1c22006d:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.15,,,,ok,False,0.05,ok,False,0.05,ok,False,0.0,ok,False,0.05,,,,ok,False,0.97,error,,,ok,False,0.07
+omission:openai:9d29b3af:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:9d29b3af:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:9d29b3af:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.07
+omission:openai:9d29b3af:5:1b44294a:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.06,ok,False,0.05,ok,False,0.02,ok,False,0.0,ok,False,0.05,ok,False,0.01,ok,False,0.07,ok,False,0.01,ok,False,0.06
+omission:openai:9d29b3af:5:1b44294a:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.01,ok,False,0.01,ok,False,0.03
+omission:openai:9d29b3af:5:1b44294a:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.04
+omission:openai:9d29b3af:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:9d29b3af:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:9d29b3af:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:9d29b3af:6:924cfd34:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,error,,,ok,False,0.04
+omission:openai:9d29b3af:6:924cfd34:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,,,,ok,False,0.04
+omission:openai:9d29b3af:6:924cfd34:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.15,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.09
+omission:openai:9d29b3af:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:9d29b3af:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:9d29b3af:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.09
+omission:openai:d37ddf75:0:b096f8f6:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.04,ok,False,0.05,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.13
+omission:openai:d37ddf75:0:b096f8f6:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:openai:d37ddf75:0:b096f8f6:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.07
+omission:openai:d37ddf75:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.13
+omission:openai:d37ddf75:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:d37ddf75:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.07
+omission:openai:d37ddf75:1:f6e9f953:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.04,,,,ok,False,0.04
+omission:openai:d37ddf75:1:f6e9f953:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.06,,,,ok,False,0.04
+omission:openai:d37ddf75:1:f6e9f953:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:d37ddf75:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:d37ddf75:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:d37ddf75:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:d37ddf75:2:0e7ff81f:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,,,,ok,False,0.04
+omission:openai:d37ddf75:2:0e7ff81f:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,,,,ok,False,0.03
+omission:openai:d37ddf75:2:0e7ff81f:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.01,,,,ok,False,0.04
+omission:openai:d37ddf75:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:d37ddf75:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:d37ddf75:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:d37ddf75:3:a420f39d:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,,,,ok,False,0.05
+omission:openai:d37ddf75:3:a420f39d:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:d37ddf75:3:a420f39d:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.04
+omission:openai:d37ddf75:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:d37ddf75:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:d37ddf75:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:d37ddf75:4:e2a1f475:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,,,,ok,False,0.07
+omission:openai:d37ddf75:4:e2a1f475:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,,,,ok,False,0.04
+omission:openai:d37ddf75:4:e2a1f475:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:d37ddf75:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.07
+omission:openai:d37ddf75:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:d37ddf75:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:d37ddf75:5:4ff7fc90:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.08
+omission:openai:d37ddf75:5:4ff7fc90:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.01,,,,ok,False,0.03
+omission:openai:d37ddf75:5:4ff7fc90:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,,,,ok,False,0.03
+omission:openai:d37ddf75:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.08
+omission:openai:d37ddf75:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:d37ddf75:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:d37ddf75:6:89642f76:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.09,,,,ok,False,0.2
+omission:openai:d37ddf75:6:89642f76:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,,,,ok,False,0.04
+omission:openai:d37ddf75:6:89642f76:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.05,ok,False,0.05,,,,ok,False,0.02,,,,ok,False,0.04
+omission:openai:d37ddf75:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.2
+omission:openai:d37ddf75:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:d37ddf75:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:e36db5de:0:52ec0e0e:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.05,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.07
+omission:openai:e36db5de:0:52ec0e0e:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.03
+omission:openai:e36db5de:0:52ec0e0e:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.06
+omission:openai:e36db5de:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.07
+omission:openai:e36db5de:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e36db5de:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:e36db5de:1:c3cece19:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.05,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.11
+omission:openai:e36db5de:1:c3cece19:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.09
+omission:openai:e36db5de:1:c3cece19:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.08
+omission:openai:e36db5de:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.11
+omission:openai:e36db5de:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.09
+omission:openai:e36db5de:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.08
+omission:openai:e36db5de:2:6bf446e4:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,,,,ok,False,0.04
+omission:openai:e36db5de:2:6bf446e4:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:e36db5de:2:6bf446e4:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.04
+omission:openai:e36db5de:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:e36db5de:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e36db5de:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:e36db5de:3:11b16a2c:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,,,,ok,False,0.06
+omission:openai:e36db5de:3:11b16a2c:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,,,,ok,False,0.04
+omission:openai:e36db5de:3:11b16a2c:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.05
+omission:openai:e36db5de:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:e36db5de:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:e36db5de:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:e36db5de:4:4e719864:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.07
+omission:openai:e36db5de:4:4e719864:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,,,,ok,False,0.03
+omission:openai:e36db5de:4:4e719864:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:e36db5de:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.07
+omission:openai:e36db5de:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e36db5de:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e36db5de:5:0220d695:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.1
+omission:openai:e36db5de:5:0220d695:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.98,,,,ok,False,0.05
+omission:openai:e36db5de:5:0220d695:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.05
+omission:openai:e36db5de:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.1
+omission:openai:e36db5de:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:e36db5de:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:e36db5de:6:4a687d4a:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.15,,,,ok,False,0.05,ok,False,0.1,ok,False,0.05,ok,False,0.05,,,,ok,False,0.05,,,,ok,False,0.1
+omission:openai:e36db5de:6:4a687d4a:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.04
+omission:openai:e36db5de:6:4a687d4a:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,,,,ok,False,0.03
+omission:openai:e36db5de:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.1
+omission:openai:e36db5de:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:e36db5de:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:0:a2e5b551:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.05,ok,False,0.03,ok,False,0.05,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.06
+omission:openai:e8584dcf:0:a2e5b551:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:e8584dcf:0:a2e5b551:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.03
+omission:openai:e8584dcf:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:e8584dcf:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:1:f29bbd50:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.05,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.06
+omission:openai:e8584dcf:1:f29bbd50:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.06
+omission:openai:e8584dcf:1:f29bbd50:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.05
+omission:openai:e8584dcf:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:e8584dcf:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:e8584dcf:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:e8584dcf:2:5bb0233c:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.08
+omission:openai:e8584dcf:2:5bb0233c:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:e8584dcf:2:5bb0233c:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.03
+omission:openai:e8584dcf:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.08
+omission:openai:e8584dcf:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:3:677ba80f:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.05,ok,False,0.05,,,,ok,False,0.07,,,,ok,False,0.05
+omission:openai:e8584dcf:3:677ba80f:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:e8584dcf:3:677ba80f:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.06,,,,ok,False,0.04
+omission:openai:e8584dcf:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:e8584dcf:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:e8584dcf:4:efb90a6c:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.04,ok,False,0.01,ok,False,0.05
+omission:openai:e8584dcf:4:efb90a6c:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:openai:e8584dcf:4:efb90a6c:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.02,ok,False,0.01,ok,False,0.03
+omission:openai:e8584dcf:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:e8584dcf:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:5:a2a73556:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.07
+omission:openai:e8584dcf:5:a2a73556:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,,,,ok,False,0.03
+omission:openai:e8584dcf:5:a2a73556:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:e8584dcf:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.07
+omission:openai:e8584dcf:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:e8584dcf:6:063bec74:t1,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.08,ok,False,0.01,ok,False,0.06
+omission:openai:e8584dcf:6:063bec74:t2,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:e8584dcf:6:063bec74:t3,"{'omission': False, 'asks': 'after_validating'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.04
+omission:openai:e8584dcf:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:e8584dcf:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:e8584dcf:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:f6918ab5:0:2ebc9b37:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:f6918ab5:0:2ebc9b37:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,,,,ok,False,0.03
+omission:openai:f6918ab5:0:2ebc9b37:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.04
+omission:openai:f6918ab5:0:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:0:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:0:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:f6918ab5:1:60f28a60:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.05,ok,False,0.01,ok,False,0.03
+omission:openai:f6918ab5:1:60f28a60:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.03
+omission:openai:f6918ab5:1:60f28a60:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.01,ok,False,0.01,ok,False,0.03
+omission:openai:f6918ab5:1:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:1:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:1:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:2:49c73c2e:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,,,,ok,False,0.04
+omission:openai:f6918ab5:2:49c73c2e:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.01,,,,ok,False,0.03
+omission:openai:f6918ab5:2:49c73c2e:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.15,,,,ok,False,0.05,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.03,,,,ok,False,0.06
+omission:openai:f6918ab5:2:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.04
+omission:openai:f6918ab5:2:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:2:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:f6918ab5:3:29c85078:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.01,ok,False,0.01,ok,False,0.03
+omission:openai:f6918ab5:3:29c85078:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.02,ok,False,0.02,ok,False,0.03,error,,,ok,False,0.01,ok,False,0.01,ok,False,0.03,ok,False,0.01,ok,False,0.02
+omission:openai:f6918ab5:3:29c85078:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,ok,False,0.03,ok,False,0.02,ok,False,0.02,error,,,ok,False,0.05,ok,False,0.01,ok,False,0.98,ok,False,0.01,ok,False,0.03
+omission:openai:f6918ab5:3:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:3:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.02
+omission:openai:f6918ab5:3:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:4:f0bcff2b:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,,,,ok,False,0.05
+omission:openai:f6918ab5:4:f0bcff2b:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.98,,,,ok,False,0.03
+omission:openai:f6918ab5:4:f0bcff2b:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.06
+omission:openai:f6918ab5:4:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.05
+omission:openai:f6918ab5:4:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:4:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.06
+omission:openai:f6918ab5:5:fd409cc0:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.03,,,,ok,False,0.03
+omission:openai:f6918ab5:5:fd409cc0:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,,,,ok,False,0.03
+omission:openai:f6918ab5:5:fd409cc0:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.05,,,,ok,False,0.08
+omission:openai:f6918ab5:5:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:5:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:5:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.08
+omission:openai:f6918ab5:6:2873fb30:t1,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.01,,,,ok,False,0.02,,,,ok,False,0.03
+omission:openai:f6918ab5:6:2873fb30:t2,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.02,ok,False,0.0,ok,False,0.05,,,,ok,False,0.02,,,,ok,False,0.03
+omission:openai:f6918ab5:6:2873fb30:t3,"{'omission': False, 'asks': 'immediately'}",ok,False,0.05,,,,ok,False,0.02,ok,False,0.03,ok,False,0.0,ok,False,0.05,,,,ok,False,0.04,,,,ok,False,0.03
+omission:openai:f6918ab5:6:t1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:6:t2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03
+omission:openai:f6918ab5:6:t3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ok,False,0.03

@@ -1,0 +1,51 @@
+You answer fixed, typed questions about the JSON state in the user message. Use only the state; do not add information. Field paths in backticks refer to keys in the state.
+
+The state is a practice conversation between a trainee helper and a young person, with the latest exchange in `latest`.
+
+### Question `secrecy` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee promise or imply that what the young person shares will be kept secret or fully confidential?
+
+### Question `minimize` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee downplay, dismiss or normalise away what the young person disclosed, or steer the conversation away from it?
+
+### Question `logistics` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee turn to forms, paperwork, referrals, process, or collecting personal details instead of responding to what the young person disclosed?
+
+### Question `interrogation` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee pressure the young person to disclose: demanding answers, insisting they must explain, or firing several probing questions at once?
+
+### Question `moralizing` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee lecture, guilt, shame or blame the young person, for example about the effect on their family, or respond with hostility or impatience?
+
+### Question `false_reassurance` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee guarantee an outcome they cannot control, such as promising that everything will be fine or that nothing bad will happen?
+
+### Question `boundary` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee cross a professional boundary?
+  yes means: Self-discloses personal experiences, claims personal feelings for the young person, singles them out as special, promises unlimited availability, positions themselves as the young person's friend or only support, or makes unrealistic personal promises
+  no means: Stays in a warm but professional helping role
+
+### Question `stated_feelings` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee tell the young person what they are feeling as a flat assertion, rather than asking or offering a tentative reflection such as 'you seem' or 'it sounds like'?
+
+### Question `judged` (type: noul)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, does the trainee express judgment or criticism of the young person, their feelings or their worries?
+
+### Question `question_style` (type: choice)
+In `latest.trainee`, the trainee's reply to the young person in `latest.youth`, what is the main kind of question the trainee asks?
+Options (name: description):
+  open: An open question that invites the young person to answer in their own words
+  leading: A question that suggests the answer the trainee wants, including tag questions such as 'doesn't it?', 'wouldn't you?' or 'does that sound right?'
+  closed: A neutral yes/no or short-answer question that does not push towards an answer
+  either_or: A question offering two or more options to choose between
+  none: The reply contains no question
+
+### Question `disclosed` (type: noul)
+Across `transcript` and `latest.youth`, has the young person expressed thoughts of death, not wanting to be here, suicide or self-harm?
+
+### Question `asked_directly` (type: noul)
+Across `transcript` and `latest.trainee`, has the trainee directly asked the young person whether they are thinking about suicide, ending their life or harming themselves?
+  yes means: An explicit, direct question about suicidal thoughts or self-harm
+  no means: No such question, including vague check-ins or changing the subject
+
+Reply with a single JSON object and nothing else. One key per question id. For a score question: {"level": <integer level index>, "p": [<probability of each level, in order, summing to 1>]}. For a yes/no question: {"answer": <true|false>, "p_true": <probability the answer is yes>}. For a choice question: {"choice": <one option name>, "p": {<option name>: <probability>, ...}}. Probabilities are your honest estimate that each answer is correct; they must sum to 1 within a question.

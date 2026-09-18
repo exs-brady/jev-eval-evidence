@@ -1,0 +1,182 @@
+{
+ "crisis": {
+  "judges": {
+   "local:qwen36-mtplx": {
+    "tau": 0.1,
+    "false_fire": 0.07142857142857142,
+    "criterion": 0.0,
+    "fallback": true
+   },
+   "openai:gpt-4.1": {
+    "tau": 0.05,
+    "false_fire": 0.23214285714285715,
+    "criterion": 0.0,
+    "fallback": true
+   },
+   "openai:gpt-5.4-mini": {
+    "tau": 0.3,
+    "false_fire": 0.14285714285714285,
+    "criterion": 0.0,
+    "fallback": true
+   },
+   "openai:gpt-5.5": {
+    "tau": 0.2,
+    "false_fire": 0.14285714285714285,
+    "criterion": 0.005952380952380952,
+    "fallback": true
+   },
+   "anthropic:claude-haiku-4-5-20251001": {
+    "tau": 0.2,
+    "false_fire": 0.05357142857142857,
+    "criterion": 0.017857142857142856,
+    "fallback": false
+   },
+   "anthropic:claude-opus-5": {
+    "tau": 0.5,
+    "false_fire": 0.10714285714285714,
+    "criterion": 0.0,
+    "fallback": true
+   },
+   "anthropic:claude-sonnet-4-5-20250929": {
+    "tau": 0.2,
+    "false_fire": 0.07142857142857142,
+    "criterion": 0.0,
+    "fallback": true
+   },
+   "anthropic:claude-sonnet-5": {
+    "tau": 0.5,
+    "false_fire": 0.17857142857142858,
+    "criterion": 0.0,
+    "fallback": true
+   },
+   "typesafe:jev-1.13.0": {
+    "tau": 0.5,
+    "false_fire": 0.10714285714285714,
+    "criterion": 0.0,
+    "fallback": true
+   }
+  },
+  "floor_false_fire": 0.05357142857142857,
+  "rule": "lowest \u03c4 with dev false-fire \u2264 floor's, tie \u2192 lower under-triage; fallback = lowest false-fire"
+ },
+ "trainee": {
+  "judges": {
+   "local:qwen36-mtplx": {
+    "tau": 0.3,
+    "false_fire": 0.0,
+    "criterion": 0.9915966386554622,
+    "fallback": false
+   },
+   "openai:gpt-4.1": {
+    "tau": 0.3,
+    "false_fire": 0.008333333333333333,
+    "criterion": 0.9917355371900827,
+    "fallback": true
+   },
+   "openai:gpt-5.4-mini": {
+    "tau": 0.7,
+    "false_fire": 0.016666666666666666,
+    "criterion": 0.9836065573770492,
+    "fallback": true
+   },
+   "openai:gpt-5.5": {
+    "tau": 0.3,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   },
+   "anthropic:claude-haiku-4-5-20251001": {
+    "tau": 0.3,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   },
+   "anthropic:claude-opus-5": {
+    "tau": 0.7,
+    "false_fire": 0.0,
+    "criterion": 0.9915966386554622,
+    "fallback": false
+   },
+   "anthropic:claude-sonnet-4-5-20250929": {
+    "tau": 0.3,
+    "false_fire": 0.008333333333333333,
+    "criterion": 0.9917355371900827,
+    "fallback": true
+   },
+   "anthropic:claude-sonnet-5": {
+    "tau": 0.3,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   },
+   "typesafe:jev-1.13.0": {
+    "tau": 0.5,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   }
+  },
+  "floor_false_fire": 0.0,
+  "rule": "lowest \u03c4 with dev false-flag \u2264 floor's, tie \u2192 higher F1; fallback = lowest false-flag"
+ },
+ "omission": {
+  "judges": {
+   "local:qwen36-mtplx": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   },
+   "openai:gpt-4.1": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 0.9583333333333334,
+    "fallback": false
+   },
+   "openai:gpt-5.4-mini": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 0.9166666666666666,
+    "fallback": false
+   },
+   "openai:gpt-5.5": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 0.9166666666666666,
+    "fallback": false
+   },
+   "anthropic:claude-haiku-4-5-20251001": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 0.9583333333333334,
+    "fallback": false
+   },
+   "anthropic:claude-opus-5": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   },
+   "anthropic:claude-sonnet-4-5-20250929": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   },
+   "anthropic:claude-sonnet-5": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   },
+   "typesafe:jev-1.13.0": {
+    "tau": 2,
+    "false_fire": 0.0,
+    "criterion": 1.0,
+    "fallback": false
+   }
+  },
+  "floor_false_fire": 0.0,
+  "rule": "grace with highest dev accuracy, tie \u2192 smaller"
+ }
+}

@@ -1,0 +1,1716 @@
+{
+  "split": "dev",
+  "rows": {
+    "regex floor": {
+      "f1": [
+        0.3783783783783784,
+        0.22857142857142856,
+        0.5111111111111111
+      ],
+      "recall": [
+        0.23333333333333334,
+        0.12903225806451613,
+        0.34328358208955223
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "anthropic:claude-haiku-4-5-20251001 alone (p ≥ 0.5)": {
+      "f1": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "regex ∪ anthropic:claude-haiku-4-5-20251001 τ=0.3": {
+      "f1": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "anthropic:claude-opus-5 alone (p ≥ 0.5)": {
+      "f1": [
+        0.9836065573770492,
+        0.9565217391304348,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.016666666666666666,
+        0.0,
+        0.042735042735042736
+      ],
+      "false_flag_near_miss": [
+        0.016666666666666666,
+        0.0,
+        0.05555555555555555
+      ]
+    },
+    "regex ∪ anthropic:claude-opus-5 τ=0.7": {
+      "f1": [
+        0.9915966386554622,
+        0.9724770642201835,
+        1.0
+      ],
+      "recall": [
+        0.9833333333333333,
+        0.9464285714285714,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "anthropic:claude-sonnet-4-5-20250929 alone (p ≥ 0.5)": {
+      "f1": [
+        0.9917355371900827,
+        0.972972972972973,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.008333333333333333,
+        0.0,
+        0.02608695652173913
+      ],
+      "false_flag_near_miss": [
+        0.016666666666666666,
+        0.0,
+        0.05357142857142857
+      ]
+    },
+    "regex ∪ anthropic:claude-sonnet-4-5-20250929 τ=0.3": {
+      "f1": [
+        0.9917355371900827,
+        0.972972972972973,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.008333333333333333,
+        0.0,
+        0.02608695652173913
+      ],
+      "false_flag_near_miss": [
+        0.016666666666666666,
+        0.0,
+        0.05357142857142857
+      ]
+    },
+    "anthropic:claude-sonnet-5 alone (p ≥ 0.5)": {
+      "f1": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "regex ∪ anthropic:claude-sonnet-5 τ=0.3": {
+      "f1": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "local:qwen36-mtplx alone (p ≥ 0.5)": {
+      "f1": [
+        0.9830508474576272,
+        0.954954954954955,
+        1.0
+      ],
+      "recall": [
+        0.9666666666666667,
+        0.9137931034482759,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "regex ∪ local:qwen36-mtplx τ=0.3": {
+      "f1": [
+        0.9915966386554622,
+        0.9724770642201835,
+        1.0
+      ],
+      "recall": [
+        0.9833333333333333,
+        0.9464285714285714,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "openai:gpt-4.1 alone (p ≥ 0.5)": {
+      "f1": [
+        0.9917355371900827,
+        0.9719626168224299,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.008333333333333333,
+        0.0,
+        0.02631578947368421
+      ],
+      "false_flag_near_miss": [
+        0.016666666666666666,
+        0.0,
+        0.05454545454545454
+      ]
+    },
+    "regex ∪ openai:gpt-4.1 τ=0.3": {
+      "f1": [
+        0.9917355371900827,
+        0.9719626168224299,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.008333333333333333,
+        0.0,
+        0.02631578947368421
+      ],
+      "false_flag_near_miss": [
+        0.016666666666666666,
+        0.0,
+        0.05454545454545454
+      ]
+    },
+    "openai:gpt-5.4-mini alone (p ≥ 0.5)": {
+      "f1": [
+        0.975609756097561,
+        0.9411764705882353,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.025,
+        0.0,
+        0.05737704918032787
+      ],
+      "false_flag_near_miss": [
+        0.05,
+        0.0,
+        0.11290322580645161
+      ]
+    },
+    "regex ∪ openai:gpt-5.4-mini τ=0.7": {
+      "f1": [
+        0.9836065573770492,
+        0.9565217391304348,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.016666666666666666,
+        0.0,
+        0.04201680672268908
+      ],
+      "false_flag_near_miss": [
+        0.03333333333333333,
+        0.0,
+        0.0851063829787234
+      ]
+    },
+    "openai:gpt-5.5 alone (p ≥ 0.5)": {
+      "f1": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "regex ∪ openai:gpt-5.5 τ=0.3": {
+      "f1": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "typesafe:jev-1.13.0 alone (p ≥ 0.5)": {
+      "f1": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "regex ∪ typesafe:jev-1.13.0 τ=0.5": {
+      "f1": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_flag": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "false_flag_near_miss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "diffs": [
+    [
+      "anthropic:claude-haiku-4-5-20251001 − Jev",
+      "f1",
+      "0.000 [0.000, 0.000]",
+      "no"
+    ],
+    [
+      "anthropic:claude-haiku-4-5-20251001 − Jev",
+      "false_flag",
+      "0.000 [0.000, 0.000]",
+      "no"
+    ],
+    [
+      "anthropic:claude-opus-5 − Jev",
+      "f1",
+      "-0.008 [-0.028, 0.000]",
+      "no"
+    ],
+    [
+      "anthropic:claude-opus-5 − Jev",
+      "false_flag",
+      "0.000 [0.000, 0.000]",
+      "no"
+    ],
+    [
+      "anthropic:claude-sonnet-4-5-20250929 − Jev",
+      "f1",
+      "-0.008 [-0.027, 0.000]",
+      "no"
+    ],
+    [
+      "anthropic:claude-sonnet-4-5-20250929 − Jev",
+      "false_flag",
+      "0.008 [0.000, 0.026]",
+      "no"
+    ],
+    [
+      "anthropic:claude-sonnet-5 − Jev",
+      "f1",
+      "0.000 [0.000, 0.000]",
+      "no"
+    ],
+    [
+      "anthropic:claude-sonnet-5 − Jev",
+      "false_flag",
+      "0.000 [0.000, 0.000]",
+      "no"
+    ],
+    [
+      "local:qwen36-mtplx − Jev",
+      "f1",
+      "-0.008 [-0.028, 0.000]",
+      "no"
+    ],
+    [
+      "local:qwen36-mtplx − Jev",
+      "false_flag",
+      "0.000 [0.000, 0.000]",
+      "no"
+    ],
+    [
+      "openai:gpt-4.1 − Jev",
+      "f1",
+      "-0.008 [-0.028, 0.000]",
+      "no"
+    ],
+    [
+      "openai:gpt-4.1 − Jev",
+      "false_flag",
+      "0.008 [0.000, 0.026]",
+      "no"
+    ],
+    [
+      "openai:gpt-5.4-mini − Jev",
+      "f1",
+      "-0.016 [-0.043, 0.000]",
+      "no"
+    ],
+    [
+      "openai:gpt-5.4-mini − Jev",
+      "false_flag",
+      "0.017 [0.000, 0.042]",
+      "no"
+    ],
+    [
+      "openai:gpt-5.5 − Jev",
+      "f1",
+      "0.000 [0.000, 0.000]",
+      "no"
+    ],
+    [
+      "openai:gpt-5.5 − Jev",
+      "false_flag",
+      "0.000 [0.000, 0.000]",
+      "no"
+    ]
+  ],
+  "per_harm": [
+    [
+      "boundary",
+      18,
+      "0.29",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "false_reassurance",
+      18,
+      "0.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "interrogation",
+      18,
+      "0.67",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "judged",
+      18,
+      "0.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "leading",
+      18,
+      "0.67",
+      "1.00",
+      "0.91",
+      "1.00",
+      "1.00",
+      "0.91",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "logistics",
+      18,
+      "0.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "minimize",
+      18,
+      "0.29",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "0.92",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "moralizing",
+      18,
+      "0.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "secrecy",
+      18,
+      "0.50",
+      "1.00",
+      "1.00",
+      "0.92",
+      "1.00",
+      "1.00",
+      "1.00",
+      "0.92",
+      "1.00",
+      "1.00"
+    ],
+    [
+      "stated_feelings",
+      18,
+      "0.80",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "1.00",
+      "0.92",
+      "1.00",
+      "1.00",
+      "1.00"
+    ]
+  ],
+  "calibration": {
+    "anthropic:claude-haiku-4-5-20251001": {
+      "elicitation": "verbalised",
+      "ece": 0.06944444444444443,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 102,
+          "confidence": 0.04019607843137255,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 18,
+          "confidence": 0.12611111111111112,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 1,
+          "confidence": 0.6,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 5,
+          "confidence": 0.756,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 12,
+          "confidence": 0.8424999999999999,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 42,
+          "confidence": 0.9376190476190477,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    "anthropic:claude-opus-5": {
+      "elicitation": "verbalised",
+      "ece": 0.042166666666666665,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 110,
+          "confidence": 0.030727272727272725,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 7,
+          "confidence": 0.12,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 1,
+          "confidence": 0.2,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 3,
+          "confidence": 0.6066666666666666,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 1,
+          "confidence": 0.8,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 58,
+          "confidence": 0.9629310344827586,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    "anthropic:claude-sonnet-4-5-20250929": {
+      "elicitation": "verbalised",
+      "ece": 0.023055555555555565,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 118,
+          "confidence": 0.018305084745762715,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 1,
+          "confidence": 0.15,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 4,
+          "confidence": 0.85,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 57,
+          "confidence": 0.9607017543859648,
+          "accuracy": 0.9824561403508771
+        }
+      ]
+    },
+    "anthropic:claude-sonnet-5": {
+      "elicitation": "verbalised",
+      "ece": 0.05244444444444446,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 115,
+          "confidence": 0.02817391304347826,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 5,
+          "confidence": 0.1,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 1,
+          "confidence": 0.55,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 3,
+          "confidence": 0.7166666666666667,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 11,
+          "confidence": 0.8363636363636363,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 45,
+          "confidence": 0.9422222222222222,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    "local:qwen36-35b-mtplx": {
+      "elicitation": "verbalised",
+      "ece": 0.0,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 2,
+          "confidence": 0.0,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ]
+    },
+    "local:qwen36-mtplx": {
+      "elicitation": "verbalised",
+      "ece": 0.022833333333333372,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 114,
+          "confidence": 0.027280701754385968,
+          "accuracy": 0.017543859649122806
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 8,
+          "confidence": 0.1,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 1,
+          "confidence": 0.85,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 57,
+          "confidence": 0.9640350877192981,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    "openai:gpt-4.1": {
+      "elicitation": "verbalised",
+      "ece": 0.014888888888888913,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 119,
+          "confidence": 0.015294117647058824,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 3,
+          "confidence": 0.85,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 58,
+          "confidence": 0.9756896551724137,
+          "accuracy": 0.9827586206896551
+        }
+      ]
+    },
+    "openai:gpt-5.4-mini": {
+      "elicitation": "verbalised",
+      "ece": 0.03144444444444444,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 115,
+          "confidence": 0.02747826086956522,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 2,
+          "confidence": 0.14,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 1,
+          "confidence": 0.66,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 1,
+          "confidence": 0.79,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 4,
+          "confidence": 0.84,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 57,
+          "confidence": 0.9773684210526316,
+          "accuracy": 0.9649122807017544
+        }
+      ]
+    },
+    "openai:gpt-5.5": {
+      "elicitation": "verbalised",
+      "ece": 0.02283333333333334,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 120,
+          "confidence": 0.015333333333333334,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 2,
+          "confidence": 0.765,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 1,
+          "confidence": 0.86,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 57,
+          "confidence": 0.9708771929824561,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    "typesafe:jev-1.13.0": {
+      "elicitation": "native",
+      "ece": 0.045555555555555544,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "count": 112,
+          "confidence": 0.03080357142857143,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "count": 6,
+          "confidence": 0.14500000000000002,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.3,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.3,
+          "hi": 0.4,
+          "count": 1,
+          "confidence": 0.38,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "count": 1,
+          "confidence": 0.43,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "count": 1,
+          "confidence": 0.77,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "count": 4,
+          "confidence": 0.8625,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "count": 55,
+          "confidence": 0.9583636363636364,
+          "accuracy": 1.0
+        }
+      ]
+    }
+  },
+  "strata": [
+    [
+      "anthropic:claude-haiku-4-5-20251001",
+      "generated by anthropic",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "anthropic:claude-haiku-4-5-20251001",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "anthropic:claude-haiku-4-5-20251001",
+      "uncontested only",
+      180,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "anthropic:claude-opus-5",
+      "generated by anthropic",
+      90,
+      "0.983 [0.939, 1.000]"
+    ],
+    [
+      "anthropic:claude-opus-5",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "anthropic:claude-opus-5",
+      "uncontested only",
+      180,
+      "0.992 [0.971, 1.000]"
+    ],
+    [
+      "anthropic:claude-sonnet-4-5-20250929",
+      "generated by anthropic",
+      90,
+      "0.984 [0.943, 1.000]"
+    ],
+    [
+      "anthropic:claude-sonnet-4-5-20250929",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "anthropic:claude-sonnet-4-5-20250929",
+      "uncontested only",
+      180,
+      "0.992 [0.973, 1.000]"
+    ],
+    [
+      "anthropic:claude-sonnet-5",
+      "generated by anthropic",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "anthropic:claude-sonnet-5",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "anthropic:claude-sonnet-5",
+      "uncontested only",
+      180,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "local:qwen36-mtplx",
+      "generated by anthropic",
+      90,
+      "0.983 [0.939, 1.000]"
+    ],
+    [
+      "local:qwen36-mtplx",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "local:qwen36-mtplx",
+      "uncontested only",
+      180,
+      "0.992 [0.971, 1.000]"
+    ],
+    [
+      "openai:gpt-4.1",
+      "generated by anthropic",
+      90,
+      "0.984 [0.945, 1.000]"
+    ],
+    [
+      "openai:gpt-4.1",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "openai:gpt-4.1",
+      "uncontested only",
+      180,
+      "0.992 [0.972, 1.000]"
+    ],
+    [
+      "openai:gpt-5.4-mini",
+      "generated by anthropic",
+      90,
+      "0.968 [0.912, 1.000]"
+    ],
+    [
+      "openai:gpt-5.4-mini",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "openai:gpt-5.4-mini",
+      "uncontested only",
+      180,
+      "0.984 [0.955, 1.000]"
+    ],
+    [
+      "openai:gpt-5.5",
+      "generated by anthropic",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "openai:gpt-5.5",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "openai:gpt-5.5",
+      "uncontested only",
+      180,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "typesafe:jev-1.13.0",
+      "generated by anthropic",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "typesafe:jev-1.13.0",
+      "generated by openai",
+      90,
+      "1.000 [1.000, 1.000]"
+    ],
+    [
+      "typesafe:jev-1.13.0",
+      "uncontested only",
+      180,
+      "1.000 [1.000, 1.000]"
+    ]
+  ],
+  "ops": [
+    [
+      "anthropic:claude-haiku-4-5-20251001",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "3544",
+      "7711",
+      "$4.043",
+      "temperature=0",
+      "off"
+    ],
+    [
+      "anthropic:claude-opus-5",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "4240",
+      "6724",
+      "$23.984",
+      "provider_default",
+      "adaptive-low"
+    ],
+    [
+      "anthropic:claude-sonnet-4-5-20250929",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "3703",
+      "4230",
+      "$11.620",
+      "temperature=0",
+      "off"
+    ],
+    [
+      "anthropic:claude-sonnet-5",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "3517",
+      "6770",
+      "$9.594",
+      "provider_default",
+      "adaptive-low"
+    ],
+    [
+      "local:qwen36-mtplx",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "4041",
+      "5036",
+      "$0.000",
+      "temperature=0",
+      "off"
+    ],
+    [
+      "openai:gpt-4.1",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "7042",
+      "86863",
+      "$4.612",
+      "temperature=0",
+      "off"
+    ],
+    [
+      "openai:gpt-5.4-mini",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "2516",
+      "3783",
+      "$2.387",
+      "provider_default",
+      "effort-low"
+    ],
+    [
+      "openai:gpt-5.5",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "2776",
+      "5201",
+      "$14.148",
+      "provider_default",
+      "effort-low"
+    ],
+    [
+      "typesafe:jev-1.13.0",
+      180,
+      0,
+      0,
+      0,
+      0,
+      "264",
+      "404",
+      "$0.051",
+      "n/a",
+      "n/a"
+    ]
+  ],
+  "chosen": {
+    "local:qwen36-mtplx": {
+      "tau": 0.3,
+      "false_fire": 0.0,
+      "criterion": 0.9915966386554622,
+      "fallback": false
+    }
+  }
+}

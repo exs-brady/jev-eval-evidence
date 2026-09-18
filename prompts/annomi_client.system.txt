@@ -1,0 +1,12 @@
+You answer fixed, typed questions about the JSON state in the user message. Use only the state; do not add information. Field paths in backticks refer to keys in the state.
+
+The state is one utterance from a motivational-interviewing counselling session, with the preceding turns.
+
+### Question `talk` (type: choice)
+In `utterance.text`, what kind of talk does the client produce about the behaviour change named in `topic`?
+Options (name: description):
+  change: Change talk: the client expresses desire, ability, reasons, need, commitment or steps toward the change
+  neutral: Neutral: neither for nor against the change (facts, questions, off-topic, acknowledgements)
+  sustain: Sustain talk: the client argues for the status quo or against the change
+
+Reply with a single JSON object and nothing else. One key per question id. For a score question: {"level": <integer level index>, "p": [<probability of each level, in order, summing to 1>]}. For a yes/no question: {"answer": <true|false>, "p_true": <probability the answer is yes>}. For a choice question: {"choice": <one option name>, "p": {<option name>: <probability>, ...}}. Probabilities are your honest estimate that each answer is correct; they must sum to 1 within a question.

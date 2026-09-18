@@ -1,0 +1,152 @@
+{
+  "_README": "ANSWER KEY. Values asserted by the prior analysis (Claude, session 4, 2026-09-18). Do NOT read before computing your own. docs/REPLICATION_BRIEF.md explains the protocol.",
+  "_tolerance": "Point estimates: absolute 0.0006. Bootstrap CI bounds: absolute 0.01 (seed-dependent). Integer counts: exact.",
+
+  "A_reproduction_of_published_figures": {
+    "crisis_test_argmax_under_exact": {
+      "anthropic:claude-haiku-4-5-20251001": [0.0260, 0.9497],
+      "anthropic:claude-sonnet-4-5-20250929": [0.0276, 0.9578],
+      "anthropic:claude-sonnet-5": [0.0065, 0.9513],
+      "local:qwen36-mtplx": [0.0276, 0.9675],
+      "openai:gpt-5.4-mini": [0.0162, 0.9464],
+      "openai:gpt-5.5": [0.0162, 0.9594],
+      "typesafe:jev-1.13.0": [0.0081, 0.9740]
+    },
+    "trainee_test_f1_alone_p_ge_0.5": {
+      "anthropic:claude-haiku-4-5-20251001": 0.9876,
+      "anthropic:claude-sonnet-4-5-20250929": 0.9958,
+      "anthropic:claude-sonnet-5": 1.0,
+      "local:qwen36-35b-mtplx": 0.9835,
+      "local:qwen36-mtplx": 0.9938,
+      "openai:gpt-5.4-mini": 0.9637,
+      "openai:gpt-5.5": 1.0,
+      "typesafe:jev-1.13.0": 1.0
+    },
+    "omission_test_accuracy_grace2": {
+      "anthropic:claude-haiku-4-5-20251001": 0.9796,
+      "anthropic:claude-sonnet-4-5-20250929": 1.0,
+      "anthropic:claude-sonnet-5": 1.0,
+      "local:qwen36-mtplx": 1.0,
+      "openai:gpt-5.4-mini": 0.8673,
+      "typesafe:jev-1.13.0": 0.9898
+    },
+    "annomi_hosted_behaviour_ac1": {
+      "anthropic:claude-haiku-4-5-20251001": 0.7631,
+      "anthropic:claude-sonnet-4-5-20250929": 0.7578,
+      "anthropic:claude-sonnet-5": 0.7903,
+      "openai:gpt-4.1": 0.7797,
+      "openai:gpt-5.4-mini": 0.7998,
+      "openai:gpt-5.5": 0.7911,
+      "typesafe:jev-1.13.0": 0.7605
+    },
+    "annomi_placement_behaviour_ac1": {
+      "annotators": [0.8153, 0.8540, 0.8296, 0.6703, 0.8722, 0.8542, 0.8788, 0.8406, 0.8789, 0.8737],
+      "anthropic:claude-haiku-4-5-20251001": 0.8603,
+      "anthropic:claude-sonnet-4-5-20250929": 0.8441,
+      "anthropic:claude-sonnet-5": 0.8570,
+      "local:qwen36-35b-mtplx": 0.8059,
+      "local:qwen36-mtplx": 0.8633,
+      "openai:gpt-4.1": 0.8666,
+      "openai:gpt-5.4-mini": 0.9174,
+      "openai:gpt-5.5": 0.8983,
+      "typesafe:jev-1.13.0": 0.8635,
+      "_ceiling_pool": 216,
+      "_pairs_per_leave_one_out_gold": [208, 211]
+    },
+    "dataset_counts": {
+      "crisis": {"turns_total": 1163, "test_turns": 916, "test_singles": 499, "test_arcs": 117, "test_units": 616},
+      "trainee": {"turns_total": 897, "test_turns": 714},
+      "omission": {"turns_total": 378, "test_turns": 294, "test_arcs": 98}
+    }
+  },
+
+  "B_coverage_defects": {
+    "crisis_test_non_error_rows_out_of_916": {
+      "local:qwen36-35b-mtplx": 44,
+      "anthropic:claude-opus-5": 100,
+      "openai:gpt-4.1": 103,
+      "anthropic:claude-haiku-4-5-20251001 (ksample5)": 150,
+      "anthropic:claude-sonnet-4-5-20250929 (ksample5)": 150
+    },
+    "qwen35b_crisis_test_error_rows": 872,
+    "qwen35b_published_calibration_pre_fix": {"n": 23, "brier": 0.000, "ece": 0.009},
+    "claim": "All five were scored in the pre-fix crisis calibration table while the same report listed them as not scored."
+  },
+
+  "C_significance_claim": {
+    "crisis_argmax_paired_exact_diff_vs_jev": {
+      "anthropic:claude-haiku-4-5-20251001": [-0.0244, -0.0422, -0.0065, true],
+      "anthropic:claude-sonnet-4-5-20250929": [-0.0162, -0.0341, 0.0000, false],
+      "anthropic:claude-sonnet-5": [-0.0227, -0.0406, -0.0065, true],
+      "local:qwen36-mtplx": [-0.0065, -0.0227, 0.0097, false],
+      "openai:gpt-5.4-mini": [-0.0276, -0.0438, -0.0114, true],
+      "openai:gpt-5.5": [-0.0146, -0.0308, 0.0016, false]
+    },
+    "_format": "[point, lo, hi, ci_excludes_zero]",
+    "claim": "3 of 6 exclude zero, not 6 of 6 as totoro.md asserts."
+  },
+
+  "D_threshold_selection": {
+    "dev_floor_false_fire": 0.054,
+    "dev_units": 168,
+    "crisis_fallback_count": "8 of 9; only anthropic:claude-haiku-4-5-20251001 met the rule",
+    "dev_false_fire_by_tau_0.05_0.1_0.2_0.3_0.5": {
+      "typesafe:jev-1.13.0": [0.36, 0.27, 0.12, 0.12, 0.11],
+      "local:qwen36-mtplx": [0.86, 0.07, 0.07, 0.07, 0.07],
+      "openai:gpt-4.1": [0.23, 0.23, 0.23, 0.23, 0.23],
+      "anthropic:claude-haiku-4-5-20251001": [0.95, 0.09, 0.05, 0.05, 0.05],
+      "anthropic:claude-sonnet-5": [1.00, 0.59, 0.30, 0.20, 0.18]
+    },
+    "chosen_tau": {"typesafe:jev-1.13.0": 0.5, "local:qwen36-mtplx": 0.1, "openai:gpt-4.1": 0.05, "anthropic:claude-haiku-4-5-20251001": 0.2, "anthropic:claude-sonnet-5": 0.5},
+    "all_nine_rederive_from_current_dev_data": true
+  },
+
+  "E_harness_ablation": {
+    "synthetic_test_under_triage_jev_alone_vs_floor_plus_jev": {
+      "argmax": [0.008, 0.008], "0.05": [0.000, 0.000], "0.1": [0.000, 0.000],
+      "0.2": [0.002, 0.002], "0.3": [0.002, 0.002], "0.5": [0.008, 0.008]
+    },
+    "synthetic_test_exact": {"jev_alone_argmax": 0.974, "jev_alone_tau0.5": 0.972, "floor_plus_jev_argmax": 0.917, "floor_plus_jev_tau0.5": 0.916},
+    "synthetic_test_false_fire": {"jev_alone_argmax": 0.029, "floor_plus_jev_argmax": 0.120, "floor_plus_jev_tau0.5": 0.125},
+    "fixtures_bankExact_bankUnder_arcExact_arcUnder_arcOver_firstRespUnder": {
+      "floor_only": ["59/60", 0, "26/84", 55, 3, "36/51"],
+      "incumbent_floor_plus_tuned_sonnet45": ["54/60", 0, "69/84", 5, 10, "5/51"],
+      "jev_alone_argmax": ["42/60", 15, "66/84", 13, 5, "11/51"],
+      "jev_alone_tau0.2": ["50/60", 7, "70/84", 5, 9, "7/51"],
+      "floor_plus_jev_argmax": ["57/60", 0, "65/84", 13, 6, "11/51"],
+      "floor_plus_jev_tau0.2": ["57/60", 0, "69/84", 5, 10, "7/51"]
+    }
+  },
+
+  "F_jev_vs_qwen36_27b": {
+    "paired_diff_qwen_minus_jev": {
+      "crisis_under_triage": [0.019, 0.008, 0.032, true],
+      "crisis_exact": [-0.006, -0.023, 0.010, false],
+      "trainee_f1": [-0.006, -0.015, 0.000, false],
+      "trainee_false_flag": [0.006, 0.000, 0.015, false],
+      "omission_accuracy": [0.010, 0.000, 0.031, false],
+      "annomi_behaviour_ac1_local": [0.007, -0.026, 0.035, false]
+    },
+    "annomi_local_543": {"jev": {"ac1": 0.7973, "multiclass_brier": 0.238, "top_label_ece": 0.072},
+                         "qwen": {"ac1": 0.8044, "multiclass_brier": 0.263, "top_label_ece": 0.091}},
+    "fixtures_argmax_alone": {"jev": ["42/60", 15, "66/84", 13, 5], "qwen": ["50/60", 6, "70/84", 10, 4]},
+    "synthetic_over_triage_pct_by_tau_0.05_0.1_0.2_0.3_0.5_argmax_model_alone": {
+      "typesafe:jev-1.13.0": [8.3, 5.4, 2.9, 1.7, 1.2, 1.2],
+      "local:qwen36-mtplx": [70.1, 52.9, 2.0, 0.5, 0.5, 0.5],
+      "anthropic:claude-sonnet-5": [73.5, 71.3, 28.2, 8.1, 4.7, 4.7],
+      "anthropic:claude-sonnet-4-5-20250929": [69.1, 56.4, 15.7, 2.0, 2.0, 2.0],
+      "anthropic:claude-haiku-4-5-20251001": [56.4, 38.0, 8.3, 3.4, 3.4, 3.4],
+      "openai:gpt-5.4-mini": [44.4, 10.0, 1.7, 1.5, 1.5, 1.5],
+      "openai:gpt-5.5": [55.6, 15.2, 2.5, 1.5, 0.5, 0.5]
+    },
+    "share_of_items_with_negligible_tail_mass_above_argmax_lt_0.05": {
+      "typesafe:jev-1.13.0": 0.818,
+      "openai:gpt-5.4-mini": 0.532,
+      "openai:gpt-5.5": 0.459,
+      "anthropic:claude-haiku-4-5-20251001": 0.245,
+      "anthropic:claude-sonnet-4-5-20250929": 0.242,
+      "local:qwen36-mtplx": 0.201,
+      "anthropic:claude-sonnet-5": 0.142
+    }
+  }
+}

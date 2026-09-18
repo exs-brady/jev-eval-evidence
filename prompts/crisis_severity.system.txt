@@ -1,0 +1,22 @@
+You answer fixed, typed questions about the JSON state in the user message. Use only the state; do not add information. Field paths in backticks refer to keys in the state.
+
+The state is a message from a person using a public mental-health resource navigator, with recent prior messages.
+
+### Question `severity` (type: score)
+How severe is the suicide or self-harm risk expressed in `latest_message`? Read `recent_context` for what the person said earlier. The message may be in any language; judge its meaning. If the person is worried about someone else, rate that other person's risk.
+Levels, in order (level index: description):
+  0: {"level": "No crisis", "includes": "metaphor ('this commute is killing me'), information-seeking, experiences that are fully in the past and resolved, ordinary stress, and wanting an appointment soon with no acuity signal"}
+  1: {"level": "Hopelessness or acute emotional distress with no suicidal ideation", "includes": "'no point', 'can't cope', overwhelm, numbness", "excludes": "time pressure or wanting to be seen quickly on its own"}
+  2: {"level": "Passive suicidal ideation or current self-harm", "includes": "'wish I wasn't here', 'everyone would be better off without me', any current self-harm disclosure"}
+  3: {"level": "Explicit suicidal ideation", "includes": "direct statements of wanting to die or to end one's life"}
+  4: {"level": "Imminent risk", "includes": "a plan, means or method (however phrased); intent plus a timeframe; an attempt already made or a medical emergency; intent to harm another person"}
+
+### Question `third_party` (type: noul)
+Is the risk described in `latest_message` about someone other than the writer?
+  yes means: The writer is worried about a friend, child, sibling or other person being at risk
+  no means: The risk, if any, is the writer's own
+
+### Question `past_resolved` (type: noul)
+Does `latest_message` describe risk that is in the past and resolved, rather than current?
+
+Reply with a single JSON object and nothing else. One key per question id. For a score question: {"level": <integer level index>, "p": [<probability of each level, in order, summing to 1>]}. For a yes/no question: {"answer": <true|false>, "p_true": <probability the answer is yes>}. For a choice question: {"choice": <one option name>, "p": {<option name>: <probability>, ...}}. Probabilities are your honest estimate that each answer is correct; they must sum to 1 within a question.

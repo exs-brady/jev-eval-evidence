@@ -1,0 +1,5383 @@
+{
+  "behaviour": {
+    "local": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 543,
+        "ac1": [
+          0.7922907644281901,
+          0.7423833040985525,
+          0.8374508824975109
+        ],
+        "ac1_channel_ci": [
+          0.7418421455938697,
+          0.8467660125955953
+        ],
+        "kappa": [
+          0.7884186061436762,
+          0.7351098881204967,
+          0.8316404634999387
+        ],
+        "accuracy": [
+          0.8434622467771639,
+          0.8026666666666666,
+          0.8770764119601329
+        ],
+        "macro_f1": 0.8284294639340649,
+        "ac1_consensus_gold": [
+          0.8763879513333369,
+          0.8284894872036905,
+          0.9545328373952146
+        ],
+        "n_consensus": 204
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 543,
+        "ac1": [
+          0.7796979844341547,
+          0.7213363680807597,
+          0.8228897937222747
+        ],
+        "ac1_channel_ci": [
+          0.7291177219847718,
+          0.8253175145894053
+        ],
+        "kappa": [
+          0.7769450555469342,
+          0.7107704138030471,
+          0.8172586229629882
+        ],
+        "accuracy": [
+          0.8342541436464088,
+          0.7838983050847458,
+          0.8651026392961877
+        ],
+        "macro_f1": 0.8246088136585478,
+        "ac1_consensus_gold": [
+          0.8631382780469624,
+          0.8154307686813252,
+          0.8942577562011682
+        ],
+        "n_consensus": 204
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 543,
+        "ac1": [
+          0.8093363114374654,
+          0.7577492582844702,
+          0.8476380788428856
+        ],
+        "ac1_channel_ci": [
+          0.7632195206568562,
+          0.8556700718283399
+        ],
+        "kappa": [
+          0.8058723232619537,
+          0.7479303836035849,
+          0.8415835832492212
+        ],
+        "accuracy": [
+          0.856353591160221,
+          0.8141414141414142,
+          0.8831417624521073
+        ],
+        "macro_f1": 0.8455899886181364,
+        "ac1_consensus_gold": [
+          0.8697990075365526,
+          0.8020867019556448,
+          0.9067923925203771
+        ],
+        "n_consensus": 204
+      },
+      "local:qwen36-35b-mtplx": {
+        "n": 543,
+        "ac1": [
+          0.7745772985916721,
+          0.7246693889526229,
+          0.8128043255846283
+        ],
+        "ac1_channel_ci": [
+          0.7201041427051156,
+          0.8140297328029004
+        ],
+        "kappa": [
+          0.772982995083025,
+          0.7174052015544875,
+          0.8099910793933988
+        ],
+        "accuracy": [
+          0.8305709023941068,
+          0.7883211678832117,
+          0.8591549295774648
+        ],
+        "macro_f1": 0.8213916790022661,
+        "ac1_consensus_gold": [
+          0.8174253522627388,
+          0.7668964282517232,
+          0.8629070904176811
+        ],
+        "n_consensus": 204
+      },
+      "local:qwen36-mtplx": {
+        "n": 543,
+        "ac1": [
+          0.8043509102742046,
+          0.7523129720236978,
+          0.842251782845741
+        ],
+        "ac1_channel_ci": [
+          0.7481608138032612,
+          0.8453557349780111
+        ],
+        "kappa": [
+          0.8012154048909065,
+          0.7395093802004142,
+          0.8369995357371831
+        ],
+        "accuracy": [
+          0.852670349907919,
+          0.8074245939675174,
+          0.8795379537953796
+        ],
+        "macro_f1": 0.8424147361647362,
+        "ac1_consensus_gold": [
+          0.8827548772310737,
+          0.841756967813612,
+          0.9172354478393666
+        ],
+        "n_consensus": 204
+      },
+      "openai:gpt-4.1": {
+        "n": 543,
+        "ac1": [
+          0.7923485467097671,
+          0.7340234509654616,
+          0.8342435436153786
+        ],
+        "ac1_channel_ci": [
+          0.7343560033746829,
+          0.8439248905890259
+        ],
+        "kappa": [
+          0.7880999931134217,
+          0.7247870412603705,
+          0.8256397421647075
+        ],
+        "accuracy": [
+          0.8434622467771639,
+          0.7972665148063781,
+          0.8737541528239202
+        ],
+        "macro_f1": 0.8321399610303879,
+        "ac1_consensus_gold": [
+          0.8828988280315714,
+          0.8260903533272135,
+          0.9303949923063909
+        ],
+        "n_consensus": 204
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 543,
+        "ac1": [
+          0.8312131298198246,
+          0.7727627889874523,
+          0.8766463406825212
+        ],
+        "ac1_channel_ci": [
+          0.7790644730082129,
+          0.8871280809604202
+        ],
+        "kappa": [
+          0.8286901773589564,
+          0.7652547445512483,
+          0.8721234366307089
+        ],
+        "accuracy": [
+          0.8729281767955801,
+          0.8263598326359832,
+          0.9055649241146712
+        ],
+        "macro_f1": 0.8656766108532847,
+        "ac1_consensus_gold": [
+          0.9348589675359233,
+          0.8945872849879196,
+          0.9703848639651524
+        ],
+        "n_consensus": 204
+      },
+      "openai:gpt-5.5": {
+        "n": 543,
+        "ac1": [
+          0.8189376068780458,
+          0.7615268762130466,
+          0.8637860941409093
+        ],
+        "ac1_channel_ci": [
+          0.7672732392383231,
+          0.8736450847817622
+        ],
+        "kappa": [
+          0.8164409218610813,
+          0.7536839939181232,
+          0.8584259400213121
+        ],
+        "accuracy": [
+          0.8637200736648251,
+          0.816933638443936,
+          0.8952772073921971
+        ],
+        "macro_f1": 0.8558536421543076,
+        "ac1_consensus_gold": [
+          0.9087991569669972,
+          0.8459816431609581,
+          0.9377523731754618
+        ],
+        "n_consensus": 204
+      },
+      "typesafe:jev-1.13.0": {
+        "n": 543,
+        "ac1": [
+          0.797262586837445,
+          0.7480133982717124,
+          0.8372351646634458
+        ],
+        "ac1_channel_ci": [
+          0.752285741402765,
+          0.8383233121666552
+        ],
+        "kappa": [
+          0.7932292192360275,
+          0.7437582817009107,
+          0.8292110825565302
+        ],
+        "accuracy": [
+          0.8471454880294659,
+          0.8099762470308789,
+          0.8752642706131079
+        ],
+        "macro_f1": 0.8380539755972726,
+        "ac1_consensus_gold": [
+          0.876458870089511,
+          0.8427849127072212,
+          0.9278392783927839
+        ],
+        "n_consensus": 204
+      }
+    },
+    "local_paired": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 543,
+        "diff": [
+          -0.004971822409254867,
+          -0.03727693161494183,
+          0.03289208904182461
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 543,
+        "diff": [
+          -0.017564602403290275,
+          -0.057020744984566996,
+          0.016022799935607845
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 543,
+        "diff": [
+          0.01207372460002043,
+          -0.015909021961874603,
+          0.03989781443785889
+        ],
+        "excludes_zero": false
+      },
+      "local:qwen36-35b-mtplx": {
+        "n": 543,
+        "diff": [
+          -0.022685288245772872,
+          -0.06216834606043686,
+          0.016601789638202247
+        ],
+        "excludes_zero": false
+      },
+      "local:qwen36-mtplx": {
+        "n": 543,
+        "diff": [
+          0.00708832343675958,
+          -0.025915591408785854,
+          0.0354905436015599
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-4.1": {
+        "n": 543,
+        "diff": [
+          -0.004914040127677932,
+          -0.043414148011093,
+          0.0271453922947259
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 543,
+        "diff": [
+          0.03395054298237965,
+          -0.0009559800684144637,
+          0.061867342290894745
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.5": {
+        "n": 543,
+        "diff": [
+          0.021675020040600845,
+          -0.009154377849254769,
+          0.047668057085096915
+        ],
+        "excludes_zero": false
+      }
+    },
+    "local_calibration": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "elicitation": "verbalised",
+        "ece": 0.03755064456721917,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 2,
+            "confidence": 0.55,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 67,
+            "confidence": 0.744776119402985,
+            "accuracy": 0.5223880597014925
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 168,
+            "confidence": 0.835,
+            "accuracy": 0.8095238095238095
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 306,
+            "confidence": 0.9375490196078431,
+            "accuracy": 0.9379084967320261
+          }
+        ]
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "elicitation": "verbalised",
+        "ece": 0.09123388581952116,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 1,
+            "confidence": 0.45,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 3,
+            "confidence": 0.55,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 5,
+            "confidence": 0.64,
+            "accuracy": 0.2
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 48,
+            "confidence": 0.7385416666666668,
+            "accuracy": 0.5625
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 88,
+            "confidence": 0.8457954545454545,
+            "accuracy": 0.6931818181818182
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 398,
+            "confidence": 0.9732663316582915,
+            "accuracy": 0.9120603015075377
+          }
+        ]
+      },
+      "anthropic:claude-sonnet-5": {
+        "elicitation": "verbalised",
+        "ece": 0.08653775322283608,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 1,
+            "confidence": 0.45,
+            "accuracy": 1.0
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 19,
+            "confidence": 0.5342105263157895,
+            "accuracy": 0.42105263157894735
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 48,
+            "confidence": 0.6120833333333333,
+            "accuracy": 0.4791666666666667
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 111,
+            "confidence": 0.7319819819819819,
+            "accuracy": 0.8198198198198198
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 236,
+            "confidence": 0.8393644067796611,
+            "accuracy": 0.9152542372881356
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 128,
+            "confidence": 0.904296875,
+            "accuracy": 0.984375
+          }
+        ]
+      },
+      "local:qwen36-35b-mtplx": {
+        "elicitation": "verbalised",
+        "ece": 0.11278084714548806,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 12,
+            "confidence": 0.7458333333333332,
+            "accuracy": 0.16666666666666666
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 62,
+            "confidence": 0.842741935483871,
+            "accuracy": 0.6451612903225806
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 469,
+            "confidence": 0.9617057569296376,
+            "accuracy": 0.8720682302771855
+          }
+        ]
+      },
+      "local:qwen36-mtplx": {
+        "elicitation": "verbalised",
+        "ece": 0.09127071823204425,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 8,
+            "confidence": 0.73125,
+            "accuracy": 0.625
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 55,
+            "confidence": 0.8381818181818183,
+            "accuracy": 0.6363636363636364
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 480,
+            "confidence": 0.9596041666666667,
+            "accuracy": 0.88125
+          }
+        ]
+      },
+      "openai:gpt-4.1": {
+        "elicitation": "verbalised",
+        "ece": 0.05027624309392266,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 2,
+            "confidence": 0.525,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 5,
+            "confidence": 0.61,
+            "accuracy": 0.6
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 54,
+            "confidence": 0.7083333333333334,
+            "accuracy": 0.6296296296296297
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 146,
+            "confidence": 0.8389041095890412,
+            "accuracy": 0.7054794520547946
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 336,
+            "confidence": 0.9390773809523809,
+            "accuracy": 0.9464285714285714
+          }
+        ]
+      },
+      "openai:gpt-5.4-mini": {
+        "elicitation": "verbalised",
+        "ece": 0.06338858195211783,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 2,
+            "confidence": 0.525,
+            "accuracy": 0.5
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 11,
+            "confidence": 0.630909090909091,
+            "accuracy": 0.6363636363636364
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 36,
+            "confidence": 0.7408333333333332,
+            "accuracy": 0.6111111111111112
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 47,
+            "confidence": 0.8468085106382978,
+            "accuracy": 0.6382978723404256
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 447,
+            "confidence": 0.9705592841163311,
+            "accuracy": 0.9261744966442953
+          }
+        ]
+      },
+      "openai:gpt-5.5": {
+        "elicitation": "verbalised",
+        "ece": 0.017274401473296414,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 17,
+            "confidence": 0.5505882352941177,
+            "accuracy": 0.5882352941176471
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 30,
+            "confidence": 0.6273333333333333,
+            "accuracy": 0.5333333333333333
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 80,
+            "confidence": 0.73675,
+            "accuracy": 0.6875
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 70,
+            "confidence": 0.8404285714285714,
+            "accuracy": 0.8285714285714286
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 346,
+            "confidence": 0.9570809248554912,
+            "accuracy": 0.953757225433526
+          }
+        ]
+      },
+      "typesafe:jev-1.13.0": {
+        "elicitation": "native",
+        "ece": 0.07165745856353595,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 1,
+            "confidence": 0.37,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 4,
+            "confidence": 0.44,
+            "accuracy": 0.75
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 29,
+            "confidence": 0.5479310344827586,
+            "accuracy": 0.4827586206896552
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 24,
+            "confidence": 0.6541666666666667,
+            "accuracy": 0.5
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 40,
+            "confidence": 0.7497499999999999,
+            "accuracy": 0.65
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 45,
+            "confidence": 0.8484444444444444,
+            "accuracy": 0.7111111111111111
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 400,
+            "confidence": 0.9863500000000001,
+            "accuracy": 0.9325
+          }
+        ]
+      }
+    },
+    "hosted": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 1364,
+        "ac1": [
+          0.7630961446723932,
+          0.7297140954524599,
+          0.7959799124057592
+        ],
+        "ac1_channel_ci": [
+          0.7337198011605692,
+          0.7941864461200371
+        ],
+        "kappa": [
+          0.7567772784773588,
+          0.7250570675754314,
+          0.789097407923747
+        ],
+        "accuracy": [
+          0.8211143695014663,
+          0.7983402489626557,
+          0.8459657701711492
+        ],
+        "macro_f1": 0.8010741693941554,
+        "ac1_consensus_gold": [
+          0.8763879513333369,
+          0.8284894872036905,
+          0.9545328373952146
+        ],
+        "n_consensus": 204
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 1364,
+        "ac1": [
+          0.7577771491195748,
+          0.7224964651342879,
+          0.7898089217896065
+        ],
+        "ac1_channel_ci": [
+          0.7221498220674495,
+          0.7933480233708291
+        ],
+        "kappa": [
+          0.7532457530946358,
+          0.7169791487825987,
+          0.7860557956592907
+        ],
+        "accuracy": [
+          0.8174486803519062,
+          0.7910339840925524,
+          0.8413533834586466
+        ],
+        "macro_f1": 0.8004499268339649,
+        "ac1_consensus_gold": [
+          0.8631382780469624,
+          0.8154307686813252,
+          0.8942577562011682
+        ],
+        "n_consensus": 204
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 1364,
+        "ac1": [
+          0.7903399866144482,
+          0.7570944981826212,
+          0.821343863230262
+        ],
+        "ac1_channel_ci": [
+          0.7586832510510616,
+          0.8259123063183114
+        ],
+        "kappa": [
+          0.7842999874807544,
+          0.7494320143950273,
+          0.8165752334687382
+        ],
+        "accuracy": [
+          0.841642228739003,
+          0.815748031496063,
+          0.864841745081266
+        ],
+        "macro_f1": 0.8265262937162148,
+        "ac1_consensus_gold": [
+          0.8697990075365526,
+          0.8020867019556448,
+          0.9067923925203771
+        ],
+        "n_consensus": 204
+      },
+      "openai:gpt-4.1": {
+        "n": 1364,
+        "ac1": [
+          0.7796685008174513,
+          0.7472215566321889,
+          0.8109600008655479
+        ],
+        "ac1_channel_ci": [
+          0.7427463931057625,
+          0.8151847484767819
+        ],
+        "kappa": [
+          0.7733069663000324,
+          0.7394200349000525,
+          0.8051464253384879
+        ],
+        "accuracy": [
+          0.8335777126099707,
+          0.8094218415417559,
+          0.8572458543619322
+        ],
+        "macro_f1": 0.8180490496470706,
+        "ac1_consensus_gold": [
+          0.8828988280315714,
+          0.8260903533272135,
+          0.9303949923063909
+        ],
+        "n_consensus": 204
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 1364,
+        "ac1": [
+          0.7998030215552938,
+          0.762936458026061,
+          0.8344750831418372
+        ],
+        "ac1_channel_ci": [
+          0.7639238611188959,
+          0.8445402140029733
+        ],
+        "kappa": [
+          0.7951539859034589,
+          0.7584709146313731,
+          0.8306751611234942
+        ],
+        "accuracy": [
+          0.8489736070381232,
+          0.8213114754098361,
+          0.8754660700969426
+        ],
+        "macro_f1": 0.8335861432829279,
+        "ac1_consensus_gold": [
+          0.9348589675359233,
+          0.8945872849879196,
+          0.9703848639651524
+        ],
+        "n_consensus": 204
+      },
+      "openai:gpt-5.5": {
+        "n": 1364,
+        "ac1": [
+          0.7910567004922795,
+          0.7518579867705547,
+          0.8282382548638745
+        ],
+        "ac1_channel_ci": [
+          0.7592065615266533,
+          0.8317346676423472
+        ],
+        "kappa": [
+          0.7862215463837864,
+          0.7472719035068817,
+          0.8230567890891173
+        ],
+        "accuracy": [
+          0.842375366568915,
+          0.8140735958683021,
+          0.8702235039653929
+        ],
+        "macro_f1": 0.8274400598261549,
+        "ac1_consensus_gold": [
+          0.9087991569669972,
+          0.8459816431609581,
+          0.9377523731754618
+        ],
+        "n_consensus": 204
+      },
+      "typesafe:jev-1.13.0": {
+        "n": 1364,
+        "ac1": [
+          0.760460184235327,
+          0.7253967537427299,
+          0.7937786975061145
+        ],
+        "ac1_channel_ci": [
+          0.7292670092259231,
+          0.7923647544267208
+        ],
+        "kappa": [
+          0.7530047081213996,
+          0.7186441295399073,
+          0.7867185086002677
+        ],
+        "accuracy": [
+          0.8189149560117303,
+          0.7942779291553134,
+          0.8431253785584494
+        ],
+        "macro_f1": 0.7999401278194275,
+        "ac1_consensus_gold": [
+          0.876458870089511,
+          0.8427849127072212,
+          0.9278392783927839
+        ],
+        "n_consensus": 204
+      }
+    },
+    "hosted_paired": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 1364,
+        "diff": [
+          0.002635960437066154,
+          -0.020442988060051737,
+          0.025789027874934534
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 1364,
+        "diff": [
+          -0.002683035115752186,
+          -0.0248731995334579,
+          0.02029303143825234
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 1364,
+        "diff": [
+          0.029879802379121134,
+          0.009205456929207156,
+          0.05095016712761624
+        ],
+        "excludes_zero": true
+      },
+      "openai:gpt-4.1": {
+        "n": 1364,
+        "diff": [
+          0.019208316582124296,
+          -0.0036411939106931746,
+          0.04170028998866937
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 1364,
+        "diff": [
+          0.039342837319966795,
+          0.0155351933072716,
+          0.06382545745842305
+        ],
+        "excludes_zero": true
+      },
+      "openai:gpt-5.5": {
+        "n": 1364,
+        "diff": [
+          0.030596516256952477,
+          0.00850601649101923,
+          0.05253322834821439
+        ],
+        "excludes_zero": true
+      }
+    },
+    "hosted_calibration": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "elicitation": "verbalised",
+        "ece": 0.06052785923753667,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 3,
+            "confidence": 0.55,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 166,
+            "confidence": 0.7435542168674698,
+            "accuracy": 0.4879518072289157
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 409,
+            "confidence": 0.8339364303178484,
+            "accuracy": 0.7432762836185819
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 786,
+            "confidence": 0.9368956743002544,
+            "accuracy": 0.9351145038167938
+          }
+        ]
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "elicitation": "verbalised",
+        "ece": 0.11165689149560112,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 2,
+            "confidence": 0.45,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 4,
+            "confidence": 0.55,
+            "accuracy": 0.5
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 12,
+            "confidence": 0.6458333333333334,
+            "accuracy": 0.25
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 112,
+            "confidence": 0.7379464285714287,
+            "accuracy": 0.49107142857142855
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 200,
+            "confidence": 0.8438,
+            "accuracy": 0.66
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 1034,
+            "confidence": 0.9719922630560928,
+            "accuracy": 0.8926499032882012
+          }
+        ]
+      },
+      "anthropic:claude-sonnet-5": {
+        "elicitation": "verbalised",
+        "ece": 0.06276392961876832,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 2,
+            "confidence": 0.435,
+            "accuracy": 1.0
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 41,
+            "confidence": 0.5360975609756098,
+            "accuracy": 0.34146341463414637
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 118,
+            "confidence": 0.6172881355932204,
+            "accuracy": 0.5508474576271186
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 291,
+            "confidence": 0.731512027491409,
+            "accuracy": 0.738831615120275
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 594,
+            "confidence": 0.8384511784511784,
+            "accuracy": 0.9090909090909091
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 318,
+            "confidence": 0.9038679245283019,
+            "accuracy": 0.9811320754716981
+          }
+        ]
+      },
+      "openai:gpt-4.1": {
+        "elicitation": "verbalised",
+        "ece": 0.05653225806451614,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 2,
+            "confidence": 0.525,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 11,
+            "confidence": 0.6090909090909091,
+            "accuracy": 0.36363636363636365
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 107,
+            "confidence": 0.7102803738317757,
+            "accuracy": 0.5887850467289719
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 408,
+            "confidence": 0.8395343137254901,
+            "accuracy": 0.696078431372549
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 836,
+            "confidence": 0.9380023923444976,
+            "accuracy": 0.9401913875598086
+          }
+        ]
+      },
+      "openai:gpt-5.4-mini": {
+        "elicitation": "verbalised",
+        "ece": 0.0851906158357772,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 8,
+            "confidence": 0.525,
+            "accuracy": 0.375
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 30,
+            "confidence": 0.6273333333333333,
+            "accuracy": 0.5333333333333333
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 89,
+            "confidence": 0.7474157303370786,
+            "accuracy": 0.5842696629213483
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 126,
+            "confidence": 0.8473809523809523,
+            "accuracy": 0.6587301587301587
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 1111,
+            "confidence": 0.9701980198019803,
+            "accuracy": 0.9036903690369037
+          }
+        ]
+      },
+      "openai:gpt-5.5": {
+        "elicitation": "verbalised",
+        "ece": 0.03774926686217011,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 1,
+            "confidence": 0.45,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 39,
+            "confidence": 0.5492307692307693,
+            "accuracy": 0.4358974358974359
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 77,
+            "confidence": 0.6333766233766234,
+            "accuracy": 0.4935064935064935
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 184,
+            "confidence": 0.7359782608695652,
+            "accuracy": 0.6358695652173914
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 183,
+            "confidence": 0.8398360655737704,
+            "accuracy": 0.7868852459016393
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 880,
+            "confidence": 0.9553863636363636,
+            "accuracy": 0.946590909090909
+          }
+        ]
+      },
+      "typesafe:jev-1.13.0": {
+        "elicitation": "native",
+        "ece": 0.09560117302052785,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 2,
+            "confidence": 0.375,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 15,
+            "confidence": 0.44866666666666666,
+            "accuracy": 0.6
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 74,
+            "confidence": 0.5487837837837838,
+            "accuracy": 0.40540540540540543
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 70,
+            "confidence": 0.65,
+            "accuracy": 0.5142857142857142
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 91,
+            "confidence": 0.7462637362637362,
+            "accuracy": 0.5604395604395604
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 114,
+            "confidence": 0.8468421052631578,
+            "accuracy": 0.6403508771929824
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 998,
+            "confidence": 0.9867935871743487,
+            "accuracy": 0.9198396793587175
+          }
+        ]
+      }
+    },
+    "all": {
+      "typesafe:jev-1.13.0": {
+        "n": 4870,
+        "ac1": [
+          0.7600323397755808,
+          0.7354381434506053,
+          0.7841029043382357
+        ],
+        "ac1_channel_ci": [
+          0.7424529349172719,
+          0.7856766702254205
+        ],
+        "kappa": [
+          0.7507630007950812,
+          0.7241641994686732,
+          0.773898681440074
+        ],
+        "accuracy": [
+          0.8182751540041068,
+          0.7985910404624278,
+          0.8352692713833157
+        ],
+        "macro_f1": 0.7941189467929637,
+        "ac1_consensus_gold": [
+          0.876458870089511,
+          0.8427849127072212,
+          0.9278392783927839
+        ],
+        "n_consensus": 204
+      }
+    },
+    "all_calibration": {
+      "typesafe:jev-1.13.0": {
+        "elicitation": "native",
+        "ece": 0.09130390143737163,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 10,
+            "confidence": 0.382,
+            "accuracy": 0.4
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 69,
+            "confidence": 0.456231884057971,
+            "accuracy": 0.391304347826087
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 259,
+            "confidence": 0.5466409266409267,
+            "accuracy": 0.4671814671814672
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 251,
+            "confidence": 0.644820717131474,
+            "accuracy": 0.5418326693227091
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 347,
+            "confidence": 0.7447838616714697,
+            "accuracy": 0.5648414985590778
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 384,
+            "confidence": 0.8469531250000001,
+            "accuracy": 0.6536458333333334
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 3550,
+            "confidence": 0.987856338028169,
+            "accuracy": 0.9154929577464789
+          }
+        ]
+      }
+    },
+    "panel_reliability": {
+      "alpha": 0.7366604776943635,
+      "n_units": 216,
+      "unanimous": 112,
+      "no_majority": 12,
+      "pooled_pairwise_ac1": 0.7395721428363817
+    },
+    "placement": {
+      "annotators": {
+        "0": {
+          "ac1": 0.8152575350399042,
+          "ci": [
+            0.773739301533148,
+            0.9068072278897082
+          ],
+          "n": 209
+        },
+        "1": {
+          "ac1": 0.8539956059977118,
+          "ci": [
+            0.7909783881975451,
+            0.9039536559598688
+          ],
+          "n": 209
+        },
+        "2": {
+          "ac1": 0.8295646624151738,
+          "ci": [
+            0.7887016247895464,
+            0.8667740276384239
+          ],
+          "n": 211
+        },
+        "3": {
+          "ac1": 0.6703186697069129,
+          "ci": [
+            0.6274800038023329,
+            0.736015881284582
+          ],
+          "n": 209
+        },
+        "4": {
+          "ac1": 0.8722260615833526,
+          "ci": [
+            0.7975121226295004,
+            0.9181641729277291
+          ],
+          "n": 208
+        },
+        "5": {
+          "ac1": 0.8542121520057148,
+          "ci": [
+            0.8230935486022036,
+            0.9213269079905861
+          ],
+          "n": 210
+        },
+        "6": {
+          "ac1": 0.8787847806194695,
+          "ci": [
+            0.8406985127232918,
+            0.9359773021649294
+          ],
+          "n": 208
+        },
+        "7": {
+          "ac1": 0.8406056983462841,
+          "ci": [
+            0.7989134269385451,
+            0.8778719181741852
+          ],
+          "n": 208
+        },
+        "8": {
+          "ac1": 0.8789141491512961,
+          "ci": [
+            0.8183535378365441,
+            0.9127891917459054
+          ],
+          "n": 208
+        },
+        "9": {
+          "ac1": 0.8736582455542242,
+          "ci": [
+            0.8170474269362481,
+            0.9256675374243302
+          ],
+          "n": 210
+        }
+      },
+      "judges": {
+        "anthropic:claude-haiku-4-5-20251001": {
+          "ac1": 0.8603042812223419,
+          "ci": [
+            0.8114939971295481,
+            0.9424943188083048
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": "-0.003 [-0.047, +0.076] (ns)"
+        },
+        "anthropic:claude-sonnet-4-5-20250929": {
+          "ac1": 0.8441409849523922,
+          "ci": [
+            0.8002429109862179,
+            0.8735502245292537
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": "-0.019 [-0.079, +0.020] (ns)"
+        },
+        "anthropic:claude-sonnet-5": {
+          "ac1": 0.8569961162094607,
+          "ci": [
+            0.7916491884992565,
+            0.8890661796035724
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": "-0.007 [-0.081, +0.023] (ns)"
+        },
+        "local:qwen36-35b-mtplx": {
+          "ac1": 0.8058831530378512,
+          "ci": [
+            0.763774715921491,
+            0.8476001761053142
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": "-0.058 [-0.132, +0.006] (ns)"
+        },
+        "local:qwen36-mtplx": {
+          "ac1": 0.86330926854134,
+          "ci": [
+            0.825491625001564,
+            0.8986423093416128
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": "-0.000 [-0.043, +0.026] (ns)"
+        },
+        "openai:gpt-4.1": {
+          "ac1": 0.8666453839880571,
+          "ci": [
+            0.8083837147297752,
+            0.913314058184357
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": "+0.003 [-0.056, +0.036] (ns)"
+        },
+        "openai:gpt-5.4-mini": {
+          "ac1": 0.9173500221618273,
+          "ci": [
+            0.8782701627189514,
+            0.9501290968110979
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": "+0.054 [-0.000, +0.080] (ns)"
+        },
+        "openai:gpt-5.5": {
+          "ac1": 0.8982539982027825,
+          "ci": [
+            0.8418152638752187,
+            0.9235598990401707
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": "+0.035 [-0.032, +0.067] (ns)"
+        },
+        "typesafe:jev-1.13.0": {
+          "ac1": 0.8635424252044214,
+          "ci": [
+            0.8289924716443087,
+            0.9219532161058804
+          ],
+          "n_pairs_min": 208,
+          "n_pairs_max": 211,
+          "n_answered": 216,
+          "vs_jev": ""
+        }
+      },
+      "n_transcripts": 7
+    }
+  },
+  "open": {
+    "local": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 187,
+        "ac1": [
+          0.6473459426479562,
+          0.5047085772461186,
+          0.7753326930991906
+        ],
+        "ac1_channel_ci": [
+          0.5416887688672423,
+          0.7351197012958488
+        ],
+        "kappa": [
+          0.624852489969318,
+          0.4760944358761418,
+          0.7417218543046358
+        ],
+        "accuracy": [
+          0.8181818181818182,
+          0.7469135802469136,
+          0.8773006134969326
+        ],
+        "macro_f1": 0.8123376623376625,
+        "ac1_consensus_gold": [
+          0.7804878048780487,
+          0.6153846153846155,
+          0.9294117647058823
+        ],
+        "n_consensus": 72
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 187,
+        "ac1": [
+          0.6559145780478964,
+          0.5182226183276571,
+          0.774658158614403
+        ],
+        "ac1_channel_ci": [
+          0.5305684849118769,
+          0.7700706873214016
+        ],
+        "kappa": [
+          0.6382554663227621,
+          0.49854510184287104,
+          0.7577927548441449
+        ],
+        "accuracy": [
+          0.8235294117647058,
+          0.7536231884057971,
+          0.8844765342960289
+        ],
+        "macro_f1": 0.8188675922392791,
+        "ac1_consensus_gold": [
+          0.6973055608637493,
+          0.46044098573281445,
+          0.851927669737291
+        ],
+        "n_consensus": 72
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 187,
+        "ac1": [
+          0.7042643321095734,
+          0.5593220338983051,
+          0.8265395368843645
+        ],
+        "ac1_channel_ci": [
+          0.5771003717472118,
+          0.8243944225003571
+        ],
+        "kappa": [
+          0.6989420423183071,
+          0.5628415300546447,
+          0.8108108108108107
+        ],
+        "accuracy": [
+          0.8502673796791443,
+          0.7797619047619048,
+          0.9060773480662984
+        ],
+        "macro_f1": 0.8483549582947174,
+        "ac1_consensus_gold": [
+          0.8892307692307692,
+          0.7774607703281027,
+          0.9793814432989691
+        ],
+        "n_consensus": 72
+      },
+      "local:qwen36-35b-mtplx": {
+        "n": 187,
+        "ac1": [
+          0.617730916133197,
+          0.4639629711262949,
+          0.7484546014075839
+        ],
+        "ac1_channel_ci": [
+          0.4827930174563591,
+          0.7399062452744594
+        ],
+        "kappa": [
+          0.5674984783931831,
+          0.41360487087969755,
+          0.6848874598070739
+        ],
+        "accuracy": [
+          0.7967914438502673,
+          0.722972972972973,
+          0.8571428571428571
+        ],
+        "macro_f1": 0.7830891330891331,
+        "ac1_consensus_gold": [
+          0.6823529411764706,
+          0.48468468468468473,
+          0.8467232074016963
+        ],
+        "n_consensus": 72
+      },
+      "local:qwen36-mtplx": {
+        "n": 187,
+        "ac1": [
+          0.7075677185143815,
+          0.5820797549368196,
+          0.8180289191525147
+        ],
+        "ac1_channel_ci": [
+          0.6035313001605136,
+          0.8135684721972286
+        ],
+        "kappa": [
+          0.6937295273748244,
+          0.554846198491004,
+          0.802221047065045
+        ],
+        "accuracy": [
+          0.8502673796791443,
+          0.7831325301204819,
+          0.905
+        ],
+        "macro_f1": 0.8465775902484763,
+        "ac1_consensus_gold": [
+          0.8617776924553658,
+          0.772690976843226,
+          0.9348664476503357
+        ],
+        "n_consensus": 72
+      },
+      "openai:gpt-4.1": {
+        "n": 187,
+        "ac1": [
+          0.6363181729780791,
+          0.4950885429724001,
+          0.7625878581117185
+        ],
+        "ac1_channel_ci": [
+          0.5386315091699199,
+          0.753870724457655
+        ],
+        "kappa": [
+          0.6146599941124522,
+          0.46580208161242365,
+          0.7365648050579557
+        ],
+        "accuracy": [
+          0.8128342245989305,
+          0.7361111111111112,
+          0.875
+        ],
+        "macro_f1": 0.8071880983944617,
+        "ac1_consensus_gold": [
+          0.7274791824375474,
+          0.5338918507235337,
+          0.8702064896755162
+        ],
+        "n_consensus": 72
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 187,
+        "ac1": [
+          0.736953157968772,
+          0.5878953225401157,
+          0.8562300319488819
+        ],
+        "ac1_channel_ci": [
+          0.620218052933698,
+          0.8481747119026514
+        ],
+        "kappa": [
+          0.7294716740929345,
+          0.5774880213651715,
+          0.85763935302767
+        ],
+        "accuracy": [
+          0.8663101604278075,
+          0.7928994082840237,
+          0.93
+        ],
+        "macro_f1": 0.8640711772744454,
+        "ac1_consensus_gold": [
+          0.9723555384910734,
+          0.9258255715495342,
+          1.0
+        ],
+        "n_consensus": 72
+      },
+      "openai:gpt-5.5": {
+        "n": 187,
+        "ac1": [
+          0.7035946787432775,
+          0.5551249148902739,
+          0.8234684547394087
+        ],
+        "ac1_channel_ci": [
+          0.5900614771546806,
+          0.8255526775495452
+        ],
+        "kappa": [
+          0.7002175655559372,
+          0.552334773901128,
+          0.8129151601782562
+        ],
+        "accuracy": [
+          0.8502673796791443,
+          0.7841726618705036,
+          0.9074889867841409
+        ],
+        "macro_f1": 0.848705501618123,
+        "ac1_consensus_gold": [
+          0.8892307692307692,
+          0.7706406004538312,
+          0.9778461538461539
+        ],
+        "n_consensus": 72
+      },
+      "typesafe:jev-1.13.0": {
+        "n": 187,
+        "ac1": [
+          0.6948656632437755,
+          0.5658666666666667,
+          0.8025490758575469
+        ],
+        "ac1_channel_ci": [
+          0.5911972009532984,
+          0.7942839860880083
+        ],
+        "kappa": [
+          0.6861871419478041,
+          0.5495905368516834,
+          0.792956243329776
+        ],
+        "accuracy": [
+          0.8449197860962567,
+          0.7769784172661871,
+          0.8966942148760331
+        ],
+        "macro_f1": 0.8423225656383566,
+        "ac1_consensus_gold": [
+          0.8064887694375121,
+          0.6487830410887203,
+          0.9002865329512894
+        ],
+        "n_consensus": 72
+      }
+    },
+    "local_paired": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 187,
+        "diff": [
+          -0.047519720595819326,
+          -0.15311889230841036,
+          0.045925282484465924
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 187,
+        "diff": [
+          -0.03895108519587909,
+          -0.13142622040999263,
+          0.048904213430175814
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 187,
+        "diff": [
+          0.009398668865797877,
+          -0.06086429607259425,
+          0.08527267175715347
+        ],
+        "excludes_zero": false
+      },
+      "local:qwen36-35b-mtplx": {
+        "n": 187,
+        "diff": [
+          -0.07713474711057855,
+          -0.20962458134510498,
+          0.04454097871864793
+        ],
+        "excludes_zero": false
+      },
+      "local:qwen36-mtplx": {
+        "n": 187,
+        "diff": [
+          0.012702055270605972,
+          -0.05927589840114411,
+          0.08841417364899173
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-4.1": {
+        "n": 187,
+        "diff": [
+          -0.05854749026569639,
+          -0.13904346402356726,
+          0.02224898432567457
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 187,
+        "diff": [
+          0.04208749472499651,
+          -0.03449374649939274,
+          0.11855051518773274
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.5": {
+        "n": 187,
+        "diff": [
+          0.008729015499502002,
+          -0.08272047990760267,
+          0.09509110800847909
+        ],
+        "excludes_zero": false
+      }
+    },
+    "hosted": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 462,
+        "ac1": [
+          0.5957912186586237,
+          0.4807416563658837,
+          0.6970308758015091
+        ],
+        "ac1_channel_ci": [
+          0.5289361857565535,
+          0.6578104655663862
+        ],
+        "kappa": [
+          0.5816892548750501,
+          0.47555298834562193,
+          0.6832779019682679
+        ],
+        "accuracy": [
+          0.7943722943722944,
+          0.7382716049382716,
+          0.8473804100227791
+        ],
+        "macro_f1": 0.7907239549310281,
+        "ac1_consensus_gold": [
+          0.7804878048780487,
+          0.6153846153846155,
+          0.9294117647058823
+        ],
+        "n_consensus": 72
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 462,
+        "ac1": [
+          0.5929572043978057,
+          0.48756487440315555,
+          0.6909960400753035
+        ],
+        "ac1_channel_ci": [
+          0.5062799916544962,
+          0.6773176109310531
+        ],
+        "kappa": [
+          0.5856697819314642,
+          0.48733605377336947,
+          0.6813011346776131
+        ],
+        "accuracy": [
+          0.7943722943722944,
+          0.7438752783964365,
+          0.8430962343096234
+        ],
+        "macro_f1": 0.7922219329183138,
+        "ac1_consensus_gold": [
+          0.6973055608637493,
+          0.46044098573281445,
+          0.851927669737291
+        ],
+        "n_consensus": 72
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 462,
+        "ac1": [
+          0.6199095022624436,
+          0.49497238130210247,
+          0.7354027390300014
+        ],
+        "ac1_channel_ci": [
+          0.4796288079023016,
+          0.7335383263782123
+        ],
+        "kappa": [
+          0.6226120857699806,
+          0.5124897716283567,
+          0.7435368031717481
+        ],
+        "accuracy": [
+          0.8095238095238095,
+          0.75,
+          0.8718487394957983
+        ],
+        "macro_f1": 0.809090909090909,
+        "ac1_consensus_gold": [
+          0.8892307692307692,
+          0.7774607703281027,
+          0.9793814432989691
+        ],
+        "n_consensus": 72
+      },
+      "openai:gpt-4.1": {
+        "n": 462,
+        "ac1": [
+          0.6015265264104834,
+          0.48701043399364896,
+          0.7056885569953877
+        ],
+        "ac1_channel_ci": [
+          0.501429772918419,
+          0.6936066736465263
+        ],
+        "kappa": [
+          0.594392523364486,
+          0.4921654105476176,
+          0.7032724757554362
+        ],
+        "accuracy": [
+          0.7987012987012987,
+          0.7460732984293194,
+          0.8544776119402985
+        ],
+        "macro_f1": 0.7965962080147704,
+        "ac1_consensus_gold": [
+          0.7274791824375474,
+          0.5338918507235337,
+          0.8702064896755162
+        ],
+        "n_consensus": 72
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 462,
+        "ac1": [
+          0.638099856388832,
+          0.5088868841302248,
+          0.7553862553008875
+        ],
+        "ac1_channel_ci": [
+          0.49345297952447537,
+          0.7662912441787496
+        ],
+        "kappa": [
+          0.6373423044575274,
+          0.5231183910429192,
+          0.753379612714651
+        ],
+        "accuracy": [
+          0.8181818181818182,
+          0.759765625,
+          0.8765432098765432
+        ],
+        "macro_f1": 0.8173053384803691,
+        "ac1_consensus_gold": [
+          0.9723555384910734,
+          0.9258255715495342,
+          1.0
+        ],
+        "n_consensus": 72
+      },
+      "openai:gpt-5.5": {
+        "n": 462,
+        "ac1": [
+          0.6325321779977822,
+          0.5064677161475944,
+          0.7473820119482911
+        ],
+        "ac1_channel_ci": [
+          0.4920086225312178,
+          0.7562516002389691
+        ],
+        "kappa": [
+          0.6366916458506798,
+          0.5284828199917653,
+          0.7508981526753258
+        ],
+        "accuracy": [
+          0.816017316017316,
+          0.7578125,
+          0.8755760368663594
+        ],
+        "macro_f1": 0.8157678684525345,
+        "ac1_consensus_gold": [
+          0.8892307692307692,
+          0.7706406004538312,
+          0.9778461538461539
+        ],
+        "n_consensus": 72
+      },
+      "typesafe:jev-1.13.0": {
+        "n": 462,
+        "ac1": [
+          0.5908321796646671,
+          0.4699944900997643,
+          0.7056211904582737
+        ],
+        "ac1_channel_ci": [
+          0.4691008880588481,
+          0.7035172379483609
+        ],
+        "kappa": [
+          0.5895752679122482,
+          0.47427123898824153,
+          0.7041796293791424
+        ],
+        "accuracy": [
+          0.7943722943722944,
+          0.7378640776699029,
+          0.8522727272727273
+        ],
+        "macro_f1": 0.7933177933177933,
+        "ac1_consensus_gold": [
+          0.8064887694375121,
+          0.6487830410887203,
+          0.9002865329512894
+        ],
+        "n_consensus": 72
+      }
+    },
+    "hosted_paired": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 462,
+        "diff": [
+          0.004959038993956666,
+          -0.08249770644926124,
+          0.10265083936155517
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 462,
+        "diff": [
+          0.0021250247331386918,
+          -0.06232568693183704,
+          0.07154921178415174
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 462,
+        "diff": [
+          0.02907732259777651,
+          -0.02545517668053021,
+          0.0925921831246127
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-4.1": {
+        "n": 462,
+        "diff": [
+          0.010694346745816374,
+          -0.05152043816896468,
+          0.07930118219860316
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 462,
+        "diff": [
+          0.047267676724164986,
+          -0.008298068335330977,
+          0.1063652862674398
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.5": {
+        "n": 462,
+        "diff": [
+          0.04169999833311511,
+          -0.014212569951875031,
+          0.1036917729912733
+        ],
+        "excludes_zero": false
+      }
+    },
+    "all": {
+      "typesafe:jev-1.13.0": {
+        "n": 1631,
+        "ac1": [
+          0.6171375813463214,
+          0.5417847884590329,
+          0.6871931239927007
+        ],
+        "ac1_channel_ci": [
+          0.5064821681276938,
+          0.7069450606225678
+        ],
+        "kappa": [
+          0.6151417140349347,
+          0.5401674078030967,
+          0.6911487618692981
+        ],
+        "accuracy": [
+          0.8074800735744941,
+          0.7689811810512654,
+          0.8460490463215259
+        ],
+        "macro_f1": 0.8063789020321871,
+        "ac1_consensus_gold": [
+          0.8064887694375121,
+          0.6487830410887203,
+          0.9002865329512894
+        ],
+        "n_consensus": 72
+      }
+    }
+  },
+  "complex": {
+    "local": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 150,
+        "ac1": [
+          0.4268959083033454,
+          0.29251962814893306,
+          0.5706167914800738
+        ],
+        "ac1_channel_ci": [
+          0.2707404920334536,
+          0.603990293879752
+        ],
+        "kappa": [
+          0.42646274230837633,
+          0.28498985801217047,
+          0.5658100558659219
+        ],
+        "accuracy": [
+          0.7133333333333334,
+          0.6440677966101694,
+          0.7833333333333333
+        ],
+        "macro_f1": 0.713218620781646,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 150,
+        "ac1": [
+          0.32147767085014856,
+          0.19596174282677997,
+          0.46209324777102617
+        ],
+        "ac1_channel_ci": [
+          0.18840579710144922,
+          0.47022191035874045
+        ],
+        "kappa": [
+          0.32096573761761055,
+          0.18236472945891782,
+          0.44993968636911946
+        ],
+        "accuracy": [
+          0.66,
+          0.592,
+          0.7244094488188977
+        ],
+        "macro_f1": 0.6592579395127165,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 150,
+        "ac1": [
+          0.42568743473720844,
+          0.2643244517802405,
+          0.5678462770216172
+        ],
+        "ac1_channel_ci": [
+          0.24519670631290025,
+          0.6169630642954855
+        ],
+        "kappa": [
+          0.41113490364025695,
+          0.2535211267605635,
+          0.548115746971736
+        ],
+        "accuracy": [
+          0.7066666666666667,
+          0.6240601503759399,
+          0.7784431137724551
+        ],
+        "macro_f1": 0.700218023255814,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "local:qwen36-35b-mtplx": {
+        "n": 150,
+        "ac1": [
+          0.42568743473720844,
+          0.2808005003126954,
+          0.5728069529351109
+        ],
+        "ac1_channel_ci": [
+          0.30229626294461953,
+          0.5625537773188779
+        ],
+        "kappa": [
+          0.41113490364025695,
+          0.2835834809359561,
+          0.5592079207920793
+        ],
+        "accuracy": [
+          0.7066666666666667,
+          0.636986301369863,
+          0.779874213836478
+        ],
+        "macro_f1": 0.700218023255814,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "local:qwen36-mtplx": {
+        "n": 150,
+        "ac1": [
+          0.38710250488541487,
+          0.21899858411636006,
+          0.5700762106558217
+        ],
+        "ac1_channel_ci": [
+          0.2134831460674156,
+          0.5940078710168846
+        ],
+        "kappa": [
+          0.3872113676731795,
+          0.19950521293514745,
+          0.5677252106286454
+        ],
+        "accuracy": [
+          0.6933333333333334,
+          0.6030534351145038,
+          0.7891156462585034
+        ],
+        "macro_f1": 0.6931151040740082,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "openai:gpt-4.1": {
+        "n": 150,
+        "ac1": [
+          0.39196334155798385,
+          0.24222431668237512,
+          0.5437529246607393
+        ],
+        "ac1_channel_ci": [
+          0.14343879888031208,
+          0.6289144994871175
+        ],
+        "kappa": [
+          0.3852459016393443,
+          0.23659163015561266,
+          0.5352941176470588
+        ],
+        "accuracy": [
+          0.6933333333333334,
+          0.6176470588235294,
+          0.7698412698412699
+        ],
+        "macro_f1": 0.6906384505021521,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 150,
+        "ac1": [
+          0.3473917869034406,
+          0.19980884617426864,
+          0.49114218293241296
+        ],
+        "ac1_channel_ci": [
+          0.14307304785894198,
+          0.5330927349756786
+        ],
+        "kappa": [
+          0.34620174346201743,
+          0.19070558231793708,
+          0.48685880007250326
+        ],
+        "accuracy": [
+          0.6733333333333333,
+          0.6,
+          0.7449664429530202
+        ],
+        "macro_f1": 0.6729699666295884,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "openai:gpt-5.5": {
+        "n": 150,
+        "ac1": [
+          0.36102236421725253,
+          0.21013974650633738,
+          0.5041480771357989
+        ],
+        "ac1_channel_ci": [
+          0.19914859651456707,
+          0.5363057324840763
+        ],
+        "kappa": [
+          0.35943060498220647,
+          0.1919504643962848,
+          0.49219672131147546
+        ],
+        "accuracy": [
+          0.68,
+          0.5972222222222222,
+          0.7484662576687117
+        ],
+        "macro_f1": 0.6794871794871795,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "typesafe:jev-1.13.0": {
+        "n": 150,
+        "ac1": [
+          0.2933647393449178,
+          0.1127200595090504,
+          0.4536677510756637
+        ],
+        "ac1_channel_ci": [
+          0.1292587776332901,
+          0.46847409257112294
+        ],
+        "kappa": [
+          0.2935845032877198,
+          0.1145116041826064,
+          0.4422149334362338
+        ],
+        "accuracy": [
+          0.6466666666666666,
+          0.5555555555555556,
+          0.7231638418079096
+        ],
+        "macro_f1": 0.6466509622649895,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      }
+    },
+    "local_paired": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 150,
+        "diff": [
+          0.1335311689584276,
+          -0.0408195637805685,
+          0.32505198642880595
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 150,
+        "diff": [
+          0.028112931505230754,
+          -0.1369336408182329,
+          0.21929565880650453
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 150,
+        "diff": [
+          0.13232269539229063,
+          -0.011761694054348626,
+          0.2941199662814123
+        ],
+        "excludes_zero": false
+      },
+      "local:qwen36-35b-mtplx": {
+        "n": 150,
+        "diff": [
+          0.13232269539229063,
+          -0.046454127462622896,
+          0.3423410901491342
+        ],
+        "excludes_zero": false
+      },
+      "local:qwen36-mtplx": {
+        "n": 150,
+        "diff": [
+          0.09373776554049706,
+          -0.09280425483258092,
+          0.2999669167404636
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-4.1": {
+        "n": 150,
+        "diff": [
+          0.09859860221306604,
+          -0.06407704133808811,
+          0.28825356535883273
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 150,
+        "diff": [
+          0.05402704755852278,
+          -0.07363622611485415,
+          0.18850629357123483
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.5": {
+        "n": 150,
+        "diff": [
+          0.06765762487233473,
+          -0.05353121554394752,
+          0.20412019373958343
+        ],
+        "excludes_zero": false
+      }
+    },
+    "hosted": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 387,
+        "ac1": [
+          0.33885885885885897,
+          0.24579738818194086,
+          0.43942611190817793
+        ],
+        "ac1_channel_ci": [
+          0.23629907979998224,
+          0.5228804689135441
+        ],
+        "kappa": [
+          0.3382140757761985,
+          0.23787431463517494,
+          0.4423214341193649
+        ],
+        "accuracy": [
+          0.6692506459948321,
+          0.6215384615384615,
+          0.7214484679665738
+        ],
+        "macro_f1": 0.6690716690716692,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 387,
+        "ac1": [
+          0.33425081713401,
+          0.2395567202556499,
+          0.4302526338043056
+        ],
+        "ac1_channel_ci": [
+          0.25614377132435034,
+          0.4541905153982018
+        ],
+        "kappa": [
+          0.32458919557512617,
+          0.23351410472588074,
+          0.41040795733025803
+        ],
+        "accuracy": [
+          0.6640826873385013,
+          0.6170798898071626,
+          0.706601466992665
+        ],
+        "macro_f1": 0.6609838274932616,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 387,
+        "ac1": [
+          0.3951282832430429,
+          0.28501848952260395,
+          0.5059341290152838
+        ],
+        "ac1_channel_ci": [
+          0.25328406945116677,
+          0.5390674797598773
+        ],
+        "kappa": [
+          0.3945428510818838,
+          0.2900759082378645,
+          0.48602084374879817
+        ],
+        "accuracy": [
+          0.6950904392764858,
+          0.6369230769230769,
+          0.7463617463617463
+        ],
+        "macro_f1": 0.6925759370960792,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "openai:gpt-4.1": {
+        "n": 387,
+        "ac1": [
+          0.3702196908055329,
+          0.26139036938194665,
+          0.49467109435197365
+        ],
+        "ac1_channel_ci": [
+          0.22111208091595205,
+          0.5478307159968061
+        ],
+        "kappa": [
+          0.37163618941148285,
+          0.25721104201564976,
+          0.49048491121904597
+        ],
+        "accuracy": [
+          0.6847545219638242,
+          0.6240963855421687,
+          0.7441253263707572
+        ],
+        "macro_f1": 0.6843983957219251,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 387,
+        "ac1": [
+          0.3488415570541497,
+          0.23232677389665599,
+          0.45557504885464734
+        ],
+        "ac1_channel_ci": [
+          0.1911856569471469,
+          0.4797091870456048
+        ],
+        "kappa": [
+          0.34968392414179394,
+          0.23273850215695044,
+          0.44731928514270486
+        ],
+        "accuracy": [
+          0.6744186046511628,
+          0.615,
+          0.7246835443037974
+        ],
+        "macro_f1": 0.6744164307462208,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "openai:gpt-5.5": {
+        "n": 387,
+        "ac1": [
+          0.3491891891891892,
+          0.22669957969177396,
+          0.46557448754398867
+        ],
+        "ac1_channel_ci": [
+          0.20143972757250714,
+          0.5093216858176135
+        ],
+        "kappa": [
+          0.3485544808421953,
+          0.22837657250817942,
+          0.45957750734829556
+        ],
+        "accuracy": [
+          0.6744186046511628,
+          0.6158038147138964,
+          0.7303664921465969
+        ],
+        "macro_f1": 0.6742424242424243,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      },
+      "typesafe:jev-1.13.0": {
+        "n": 387,
+        "ac1": [
+          0.31249254265600757,
+          0.1999472086577802,
+          0.4168511088576342
+        ],
+        "ac1_channel_ci": [
+          0.21919816431894945,
+          0.42384589191029826
+        ],
+        "kappa": [
+          0.3042929970485645,
+          0.196078431372549,
+          0.3986940368521783
+        ],
+        "accuracy": [
+          0.6537467700258398,
+          0.6019047619047619,
+          0.7025316455696202
+        ],
+        "macro_f1": 0.6512106537530267,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      }
+    },
+    "hosted_paired": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 387,
+        "diff": [
+          0.026366316202851403,
+          -0.0778702608771717,
+          0.14613971043817953
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 387,
+        "diff": [
+          0.021758274478002437,
+          -0.07387549691735934,
+          0.11430967149352644
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 387,
+        "diff": [
+          0.08263574058703532,
+          -0.03711738788928698,
+          0.2081410579585513
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-4.1": {
+        "n": 387,
+        "diff": [
+          0.05772714814952534,
+          -0.06378028424536714,
+          0.19168565192708492
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 387,
+        "diff": [
+          0.03634901439814214,
+          -0.061399345744024114,
+          0.137698469818611
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.5": {
+        "n": 387,
+        "diff": [
+          0.03669664653318161,
+          -0.05495303907590071,
+          0.13607461385175146
+        ],
+        "excludes_zero": false
+      }
+    },
+    "all": {
+      "typesafe:jev-1.13.0": {
+        "n": 1479,
+        "ac1": [
+          0.3293082409664188,
+          0.268650693359739,
+          0.391240289986336
+        ],
+        "ac1_channel_ci": [
+          0.25055132805584707,
+          0.42948188286750005
+        ],
+        "kappa": [
+          0.31057769029528126,
+          0.24421722836324417,
+          0.372897400936765
+        ],
+        "accuracy": [
+          0.6599053414469236,
+          0.6286528866714184,
+          0.6911987860394537
+        ],
+        "macro_f1": 0.6550201371225594,
+        "ac1_consensus_gold": [
+          null,
+          null,
+          null
+        ],
+        "n_consensus": 43
+      }
+    }
+  },
+  "talk": {
+    "local": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 426,
+        "ac1": [
+          0.6837165776951974,
+          0.5691870279875612,
+          0.7625410843140557
+        ],
+        "ac1_channel_ci": [
+          0.5595568527959154,
+          0.7732207153245755
+        ],
+        "kappa": [
+          0.609286328460877,
+          0.5021553545769589,
+          0.6852760146181959
+        ],
+        "accuracy": [
+          0.7746478873239436,
+          0.6993865030674846,
+          0.8258785942492013
+        ],
+        "macro_f1": 0.7420716270031339,
+        "ac1_consensus_gold": [
+          0.8389434633141946,
+          0.7874525105246946,
+          0.8869024783242538
+        ],
+        "n_consensus": 193
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 426,
+        "ac1": [
+          0.7494054610506843,
+          0.6397340997227117,
+          0.8226536658679758
+        ],
+        "ac1_channel_ci": [
+          0.6394650504157142,
+          0.841636214706408
+        ],
+        "kappa": [
+          0.6906258958432872,
+          0.576300085251492,
+          0.7630369470132082
+        ],
+        "accuracy": [
+          0.8215962441314554,
+          0.7428571428571429,
+          0.868995633187773
+        ],
+        "macro_f1": 0.8022834423268499,
+        "ac1_consensus_gold": [
+          0.8737782945173128,
+          0.8163160399809614,
+          0.9109541667680394
+        ],
+        "n_consensus": 193
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 426,
+        "ac1": [
+          0.7150878393616773,
+          0.601600482406,
+          0.7952485650723289
+        ],
+        "ac1_channel_ci": [
+          0.5945648331582816,
+          0.8136398084920242
+        ],
+        "kappa": [
+          0.6542599373372089,
+          0.5368625462754814,
+          0.7382376170596864
+        ],
+        "accuracy": [
+          0.7981220657276995,
+          0.719047619047619,
+          0.8506944444444444
+        ],
+        "macro_f1": 0.7779850419579478,
+        "ac1_consensus_gold": [
+          0.8441677600491794,
+          0.7483829154541181,
+          0.8991095015394356
+        ],
+        "n_consensus": 193
+      },
+      "local:qwen36-mtplx": {
+        "n": 426,
+        "ac1": [
+          0.7262509251768594,
+          0.6101071195917116,
+          0.8015349591532767
+        ],
+        "ac1_channel_ci": [
+          0.6198865255576569,
+          0.8125672318522179
+        ],
+        "kappa": [
+          0.649616167946107,
+          0.5281292302138795,
+          0.7188326272993489
+        ],
+        "accuracy": [
+          0.8028169014084507,
+          0.7263843648208469,
+          0.8509532062391681
+        ],
+        "macro_f1": 0.7723943325243434,
+        "ac1_consensus_gold": [
+          0.882338174645867,
+          0.8257068489340141,
+          0.9072428169742415
+        ],
+        "n_consensus": 193
+      },
+      "openai:gpt-4.1": {
+        "n": 426,
+        "ac1": [
+          0.7473367995378393,
+          0.615781962635355,
+          0.8326486183765324
+        ],
+        "ac1_channel_ci": [
+          0.6179375101181802,
+          0.8532446577316273
+        ],
+        "kappa": [
+          0.6829499323410012,
+          0.5452599043770826,
+          0.7644002049330308
+        ],
+        "accuracy": [
+          0.8192488262910798,
+          0.729106628242075,
+          0.8712241653418124
+        ],
+        "macro_f1": 0.7968323456128333,
+        "ac1_consensus_gold": [
+          0.9090307551462523,
+          0.8249158249158249,
+          0.9479323499913457
+        ],
+        "n_consensus": 193
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 426,
+        "ac1": [
+          0.7088359466345148,
+          0.5956538123351338,
+          0.7869732050259369
+        ],
+        "ac1_channel_ci": [
+          0.592309895966188,
+          0.7945384258980898
+        ],
+        "kappa": [
+          0.6313660670879921,
+          0.504733727810651,
+          0.7134254765361255
+        ],
+        "accuracy": [
+          0.7910798122065728,
+          0.708185053380783,
+          0.8402625820568927
+        ],
+        "macro_f1": 0.7664709725837796,
+        "ac1_consensus_gold": [
+          0.8606347257825757,
+          0.7850224508404011,
+          0.8987006099177938
+        ],
+        "n_consensus": 193
+      },
+      "openai:gpt-5.5": {
+        "n": 426,
+        "ac1": [
+          0.7583715839139717,
+          0.6408089327251928,
+          0.8355583438948703
+        ],
+        "ac1_channel_ci": [
+          0.6352136794870192,
+          0.8515134997533471
+        ],
+        "kappa": [
+          0.7055448244517668,
+          0.5781709733592201,
+          0.7842332065906209
+        ],
+        "accuracy": [
+          0.8286384976525821,
+          0.7445482866043613,
+          0.8786610878661087
+        ],
+        "macro_f1": 0.8079686433453049,
+        "ac1_consensus_gold": [
+          0.9085308056872038,
+          0.8378121735827556,
+          0.9477676046914187
+        ],
+        "n_consensus": 193
+      },
+      "typesafe:jev-1.13.0": {
+        "n": 426,
+        "ac1": [
+          0.7027672180878798,
+          0.583726628551246,
+          0.7796871321877207
+        ],
+        "ac1_channel_ci": [
+          0.5858650757228085,
+          0.7993770593596331
+        ],
+        "kappa": [
+          0.608651369001258,
+          0.48926948198537146,
+          0.6858789038641638
+        ],
+        "accuracy": [
+          0.784037558685446,
+          0.6987951807228916,
+          0.8330683624801272
+        ],
+        "macro_f1": 0.7502203045535817,
+        "ac1_consensus_gold": [
+          0.86871335869322,
+          0.8087470690182486,
+          0.928721740028111
+        ],
+        "n_consensus": 193
+      }
+    },
+    "local_paired": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 426,
+        "diff": [
+          -0.01905064039268234,
+          -0.06162200811090157,
+          0.02860736289034238
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 426,
+        "diff": [
+          0.0466382429628045,
+          -0.0006222483061396611,
+          0.10365760500910182
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 426,
+        "diff": [
+          0.012320621273797516,
+          -0.03593454367856519,
+          0.06752572386348743
+        ],
+        "excludes_zero": false
+      },
+      "local:qwen36-mtplx": {
+        "n": 426,
+        "diff": [
+          0.023483707088979622,
+          -0.01709602026951773,
+          0.061620098158529424
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-4.1": {
+        "n": 426,
+        "diff": [
+          0.04456958144995948,
+          -0.012632449591419959,
+          0.08976190210651336
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 426,
+        "diff": [
+          0.006068728546634983,
+          -0.03924584003002085,
+          0.051820221298090274
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.5": {
+        "n": 426,
+        "diff": [
+          0.05560436582609196,
+          0.002483924843144525,
+          0.11064525104706058
+        ],
+        "excludes_zero": true
+      }
+    },
+    "local_calibration": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "elicitation": "verbalised",
+        "ece": 0.045985915492957746,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 75,
+            "confidence": 0.6253333333333333,
+            "accuracy": 0.5866666666666667
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 162,
+            "confidence": 0.744567901234568,
+            "accuracy": 0.7037037037037037
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 129,
+            "confidence": 0.8306201550387597,
+            "accuracy": 0.8992248062015504
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 60,
+            "confidence": 0.913,
+            "accuracy": 0.9333333333333333
+          }
+        ]
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "elicitation": "verbalised",
+        "ece": 0.07504694835680756,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 2,
+            "confidence": 0.65,
+            "accuracy": 0.5
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 31,
+            "confidence": 0.7451612903225807,
+            "accuracy": 0.4838709677419355
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 132,
+            "confidence": 0.8348484848484848,
+            "accuracy": 0.7878787878787878
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 261,
+            "confidence": 0.9477777777777778,
+            "accuracy": 0.8812260536398467
+          }
+        ]
+      },
+      "anthropic:claude-sonnet-5": {
+        "elicitation": "verbalised",
+        "ece": 0.028873239436619732,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 1,
+            "confidence": 0.45,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 11,
+            "confidence": 0.5454545454545454,
+            "accuracy": 0.36363636363636365
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 51,
+            "confidence": 0.6176470588235294,
+            "accuracy": 0.6078431372549019
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 128,
+            "confidence": 0.7316406249999999,
+            "accuracy": 0.78125
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 120,
+            "confidence": 0.8266666666666667,
+            "accuracy": 0.8166666666666667
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 115,
+            "confidence": 0.9147826086956522,
+            "accuracy": 0.9304347826086956
+          }
+        ]
+      },
+      "local:qwen36-mtplx": {
+        "elicitation": "verbalised",
+        "ece": 0.08403755868544602,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 4,
+            "confidence": 0.7,
+            "accuracy": 0.75
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 164,
+            "confidence": 0.8109756097560976,
+            "accuracy": 0.6402439024390244
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 258,
+            "confidence": 0.9364341085271317,
+            "accuracy": 0.9069767441860465
+          }
+        ]
+      },
+      "openai:gpt-4.1": {
+        "elicitation": "verbalised",
+        "ece": 0.06154929577464794,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 1,
+            "confidence": 0.5,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 3,
+            "confidence": 0.6,
+            "accuracy": 0.6666666666666666
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 53,
+            "confidence": 0.7037735849056603,
+            "accuracy": 0.7735849056603774
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 115,
+            "confidence": 0.8165217391304348,
+            "accuracy": 0.7478260869565218
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 254,
+            "confidence": 0.9209448818897639,
+            "accuracy": 0.8661417322834646
+          }
+        ]
+      },
+      "openai:gpt-5.4-mini": {
+        "elicitation": "verbalised",
+        "ece": 0.1046244131455399,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 3,
+            "confidence": 0.5366666666666667,
+            "accuracy": 0.6666666666666666
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 19,
+            "confidence": 0.6457894736842105,
+            "accuracy": 0.42105263157894735
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 41,
+            "confidence": 0.7368292682926829,
+            "accuracy": 0.6341463414634146
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 72,
+            "confidence": 0.8430555555555556,
+            "accuracy": 0.7222222222222222
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 291,
+            "confidence": 0.9484536082474226,
+            "accuracy": 0.8556701030927835
+          }
+        ]
+      },
+      "openai:gpt-5.5": {
+        "elicitation": "verbalised",
+        "ece": 0.038920187793427236,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 9,
+            "confidence": 0.5477777777777778,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 24,
+            "confidence": 0.6354166666666666,
+            "accuracy": 0.4583333333333333
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 87,
+            "confidence": 0.7285057471264367,
+            "accuracy": 0.7586206896551724
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 70,
+            "confidence": 0.8354285714285714,
+            "accuracy": 0.8
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 236,
+            "confidence": 0.9419491525423729,
+            "accuracy": 0.9194915254237288
+          }
+        ]
+      },
+      "typesafe:jev-1.13.0": {
+        "elicitation": "native",
+        "ece": 0.10164319248826287,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 3,
+            "confidence": 0.3666666666666667,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 3,
+            "confidence": 0.47,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 26,
+            "confidence": 0.5515384615384615,
+            "accuracy": 0.34615384615384615
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 37,
+            "confidence": 0.6391891891891892,
+            "accuracy": 0.6216216216216216
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 33,
+            "confidence": 0.7445454545454545,
+            "accuracy": 0.696969696969697
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 46,
+            "confidence": 0.85,
+            "accuracy": 0.8260869565217391
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 278,
+            "confidence": 0.9788848920863309,
+            "accuracy": 0.8561151079136691
+          }
+        ]
+      }
+    },
+    "hosted": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 1105,
+        "ac1": [
+          0.6518016738705327,
+          0.5970884710266694,
+          0.7050022272150317
+        ],
+        "ac1_channel_ci": [
+          0.5989143641264525,
+          0.7111627510980453
+        ],
+        "kappa": [
+          0.586265829955263,
+          0.5327003063100701,
+          0.6443319821147505
+        ],
+        "accuracy": [
+          0.7547511312217194,
+          0.7177489177489178,
+          0.7919799498746867
+        ],
+        "macro_f1": 0.7312968447218027,
+        "ac1_consensus_gold": [
+          0.8389434633141946,
+          0.7874525105246946,
+          0.8869024783242538
+        ],
+        "n_consensus": 193
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 1105,
+        "ac1": [
+          0.6728836488735163,
+          0.6142261045087084,
+          0.7296844612325818
+        ],
+        "ac1_channel_ci": [
+          0.6248080673820346,
+          0.7433848527408574
+        ],
+        "kappa": [
+          0.6135145295237887,
+          0.5545165094339622,
+          0.6734025001114793
+        ],
+        "accuracy": [
+          0.7701357466063349,
+          0.7321911632100991,
+          0.8080357142857143
+        ],
+        "macro_f1": 0.7558848833465713,
+        "ac1_consensus_gold": [
+          0.8737782945173128,
+          0.8163160399809614,
+          0.9109541667680394
+        ],
+        "n_consensus": 193
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 1105,
+        "ac1": [
+          0.6743818478930591,
+          0.6157796357833055,
+          0.7320425709429004
+        ],
+        "ac1_channel_ci": [
+          0.6249088824611785,
+          0.7558494962648208
+        ],
+        "kappa": [
+          0.6149900017076975,
+          0.5598577233035981,
+          0.6743509730243092
+        ],
+        "accuracy": [
+          0.7710407239819005,
+          0.7336633663366336,
+          0.8102734051367025
+        ],
+        "macro_f1": 0.7567620940832205,
+        "ac1_consensus_gold": [
+          0.8441677600491794,
+          0.7483829154541181,
+          0.8991095015394356
+        ],
+        "n_consensus": 193
+      },
+      "openai:gpt-4.1": {
+        "n": 1105,
+        "ac1": [
+          0.6825925392915376,
+          0.6189882655864336,
+          0.744092661710299
+        ],
+        "ac1_channel_ci": [
+          0.629324499789107,
+          0.7581828607538645
+        ],
+        "kappa": [
+          0.6174864150727438,
+          0.555029999417487,
+          0.6788009792342489
+        ],
+        "accuracy": [
+          0.7755656108597285,
+          0.7337850919651501,
+          0.8173168411037107
+        ],
+        "macro_f1": 0.7567384447028861,
+        "ac1_consensus_gold": [
+          0.9090307551462523,
+          0.8249158249158249,
+          0.9479323499913457
+        ],
+        "n_consensus": 193
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 1105,
+        "ac1": [
+          0.662851134369352,
+          0.6060037321041148,
+          0.7199881600880722
+        ],
+        "ac1_channel_ci": [
+          0.6133109020079448,
+          0.7346833701007561
+        ],
+        "kappa": [
+          0.5865554452691608,
+          0.5238645853407848,
+          0.6463240473903299
+        ],
+        "accuracy": [
+          0.7601809954751131,
+          0.7203237410071942,
+          0.798216276477146
+        ],
+        "macro_f1": 0.7354206875647454,
+        "ac1_consensus_gold": [
+          0.8606347257825757,
+          0.7850224508404011,
+          0.8987006099177938
+        ],
+        "n_consensus": 193
+      },
+      "openai:gpt-5.5": {
+        "n": 1105,
+        "ac1": [
+          0.7026896844784771,
+          0.6402111426239893,
+          0.7603710395116529
+        ],
+        "ac1_channel_ci": [
+          0.652017369127293,
+          0.7812226632469069
+        ],
+        "kappa": [
+          0.653129883512239,
+          0.5957067462029787,
+          0.7126837058860835
+        ],
+        "accuracy": [
+          0.7918552036199095,
+          0.7532467532467533,
+          0.8306188925081434
+        ],
+        "macro_f1": 0.7746497060786304,
+        "ac1_consensus_gold": [
+          0.9085308056872038,
+          0.8378121735827556,
+          0.9477676046914187
+        ],
+        "n_consensus": 193
+      },
+      "typesafe:jev-1.13.0": {
+        "n": 1105,
+        "ac1": [
+          0.6786185072512573,
+          0.6188892532743002,
+          0.737290122336391
+        ],
+        "ac1_channel_ci": [
+          0.6349715677430212,
+          0.7407684682513205
+        ],
+        "kappa": [
+          0.594540925789226,
+          0.5370758341759353,
+          0.6524956448581177
+        ],
+        "accuracy": [
+          0.7692307692307693,
+          0.727810650887574,
+          0.8098159509202454
+        ],
+        "macro_f1": 0.7432830783426692,
+        "ac1_consensus_gold": [
+          0.86871335869322,
+          0.8087470690182486,
+          0.928721740028111
+        ],
+        "n_consensus": 193
+      }
+    },
+    "hosted_paired": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "n": 1105,
+        "diff": [
+          -0.026816833380724603,
+          -0.05828316933070654,
+          0.004803230814464432
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "n": 1105,
+        "diff": [
+          -0.0057348583777410145,
+          -0.04067016851260585,
+          0.0280696568605856
+        ],
+        "excludes_zero": false
+      },
+      "anthropic:claude-sonnet-5": {
+        "n": 1105,
+        "diff": [
+          -0.004236659358198169,
+          -0.037235158572509475,
+          0.03098247104439389
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-4.1": {
+        "n": 1105,
+        "diff": [
+          0.003974032040280351,
+          -0.026676500408521098,
+          0.03383075465441043
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.4-mini": {
+        "n": 1105,
+        "diff": [
+          -0.015767372881905328,
+          -0.043254433009888515,
+          0.012274298478418544
+        ],
+        "excludes_zero": false
+      },
+      "openai:gpt-5.5": {
+        "n": 1105,
+        "diff": [
+          0.024071177227219853,
+          -0.010962791968963104,
+          0.056983540339659466
+        ],
+        "excludes_zero": false
+      }
+    },
+    "hosted_calibration": {
+      "anthropic:claude-haiku-4-5-20251001": {
+        "elicitation": "verbalised",
+        "ece": 0.05797285067873305,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 185,
+            "confidence": 0.6229729729729729,
+            "accuracy": 0.5891891891891892
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 455,
+            "confidence": 0.7440879120879121,
+            "accuracy": 0.6681318681318681
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 324,
+            "confidence": 0.8302469135802469,
+            "accuracy": 0.8919753086419753
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 141,
+            "confidence": 0.9131205673758865,
+            "accuracy": 0.9361702127659575
+          }
+        ]
+      },
+      "anthropic:claude-sonnet-4-5-20250929": {
+        "elicitation": "verbalised",
+        "ece": 0.11809049773755666,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 5,
+            "confidence": 0.64,
+            "accuracy": 0.2
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 126,
+            "confidence": 0.7448412698412697,
+            "accuracy": 0.4444444444444444
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 356,
+            "confidence": 0.8352528089887641,
+            "accuracy": 0.7275280898876404
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 618,
+            "confidence": 0.9499838187702266,
+            "accuracy": 0.8656957928802589
+          }
+        ]
+      },
+      "anthropic:claude-sonnet-5": {
+        "elicitation": "verbalised",
+        "ece": 0.03201809954751124,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 5,
+            "confidence": 0.45,
+            "accuracy": 0.2
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 46,
+            "confidence": 0.5380434782608695,
+            "accuracy": 0.5
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 150,
+            "confidence": 0.618,
+            "accuracy": 0.5466666666666666
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 332,
+            "confidence": 0.7298192771084336,
+            "accuracy": 0.7048192771084337
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 291,
+            "confidence": 0.8286941580756014,
+            "accuracy": 0.845360824742268
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 281,
+            "confidence": 0.9162633451957296,
+            "accuracy": 0.9466192170818505
+          }
+        ]
+      },
+      "openai:gpt-4.1": {
+        "elicitation": "verbalised",
+        "ece": 0.07736651583710413,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 7,
+            "confidence": 0.5,
+            "accuracy": 0.14285714285714285
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 23,
+            "confidence": 0.6,
+            "accuracy": 0.43478260869565216
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 163,
+            "confidence": 0.704601226993865,
+            "accuracy": 0.6503067484662577
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 304,
+            "confidence": 0.8179276315789474,
+            "accuracy": 0.7401315789473685
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 608,
+            "confidence": 0.9238322368421054,
+            "accuracy": 0.8470394736842105
+          }
+        ]
+      },
+      "openai:gpt-5.4-mini": {
+        "elicitation": "verbalised",
+        "ece": 0.12920361990950222,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 1,
+            "confidence": 0.45,
+            "accuracy": 1.0
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 15,
+            "confidence": 0.544,
+            "accuracy": 0.26666666666666666
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 45,
+            "confidence": 0.6382222222222222,
+            "accuracy": 0.4888888888888889
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 118,
+            "confidence": 0.737457627118644,
+            "accuracy": 0.559322033898305
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 187,
+            "confidence": 0.8410160427807487,
+            "accuracy": 0.7058823529411765
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 739,
+            "confidence": 0.9472936400541271,
+            "accuracy": 0.8322056833558863
+          }
+        ]
+      },
+      "openai:gpt-5.5": {
+        "elicitation": "verbalised",
+        "ece": 0.05060633484162898,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 1,
+            "confidence": 0.45,
+            "accuracy": 0.0
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 30,
+            "confidence": 0.5533333333333333,
+            "accuracy": 0.4666666666666667
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 97,
+            "confidence": 0.6323711340206186,
+            "accuracy": 0.5154639175257731
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 229,
+            "confidence": 0.72882096069869,
+            "accuracy": 0.6943231441048034
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 177,
+            "confidence": 0.8332768361581921,
+            "accuracy": 0.7740112994350282
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 571,
+            "confidence": 0.9424518388791594,
+            "accuracy": 0.9019264448336253
+          }
+        ]
+      },
+      "typesafe:jev-1.13.0": {
+        "elicitation": "native",
+        "ece": 0.10398190045248872,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 6,
+            "confidence": 0.36999999999999994,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 14,
+            "confidence": 0.45,
+            "accuracy": 0.42857142857142855
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 74,
+            "confidence": 0.5487837837837838,
+            "accuracy": 0.5135135135135135
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 95,
+            "confidence": 0.6468421052631579,
+            "accuracy": 0.5578947368421052
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 103,
+            "confidence": 0.7428155339805825,
+            "accuracy": 0.6213592233009708
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 136,
+            "confidence": 0.8463970588235294,
+            "accuracy": 0.7426470588235294
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 677,
+            "confidence": 0.978877400295421,
+            "accuracy": 0.8655834564254062
+          }
+        ]
+      }
+    },
+    "all": {
+      "typesafe:jev-1.13.0": {
+        "n": 4798,
+        "ac1": [
+          0.6915052675878809,
+          0.6463967066700684,
+          0.7348746637484995
+        ],
+        "ac1_channel_ci": [
+          0.6635485832112032,
+          0.7283180298483453
+        ],
+        "kappa": [
+          0.5268699477350147,
+          0.47979509570457657,
+          0.5769364586380846
+        ],
+        "accuracy": [
+          0.7671946644435181,
+          0.7350549003660024,
+          0.7972295199426798
+        ],
+        "macro_f1": 0.6912506247122822,
+        "ac1_consensus_gold": [
+          0.86871335869322,
+          0.8087470690182486,
+          0.928721740028111
+        ],
+        "n_consensus": 193
+      }
+    },
+    "all_calibration": {
+      "typesafe:jev-1.13.0": {
+        "elicitation": "native",
+        "ece": 0.103451438099208,
+        "bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.1,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.1,
+            "hi": 0.2,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.3,
+            "count": 0,
+            "confidence": null,
+            "accuracy": null
+          },
+          {
+            "lo": 0.3,
+            "hi": 0.4,
+            "count": 19,
+            "confidence": 0.3736842105263158,
+            "accuracy": 0.42105263157894735
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.5,
+            "count": 81,
+            "confidence": 0.46024691358024694,
+            "accuracy": 0.4074074074074074
+          },
+          {
+            "lo": 0.5,
+            "hi": 0.6,
+            "count": 355,
+            "confidence": 0.5478591549295775,
+            "accuracy": 0.4732394366197183
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.7,
+            "count": 391,
+            "confidence": 0.6449360613810742,
+            "accuracy": 0.5498721227621484
+          },
+          {
+            "lo": 0.7,
+            "hi": 0.8,
+            "count": 424,
+            "confidence": 0.7450943396226416,
+            "accuracy": 0.6297169811320755
+          },
+          {
+            "lo": 0.8,
+            "hi": 0.9,
+            "count": 604,
+            "confidence": 0.8473013245033112,
+            "accuracy": 0.7086092715231788
+          },
+          {
+            "lo": 0.9,
+            "hi": 1.0,
+            "count": 2924,
+            "confidence": 0.9773700410396716,
+            "accuracy": 0.8765389876880985
+          }
+        ]
+      }
+    },
+    "panel_reliability": {
+      "alpha": 0.4671406285787265,
+      "n_units": 212,
+      "unanimous": 58,
+      "no_majority": 19,
+      "pooled_pairwise_ac1": 0.5831491882554849
+    },
+    "placement": {
+      "annotators": {
+        "0": {
+          "ac1": 0.7605937942617432,
+          "ci": [
+            0.6537846094166707,
+            0.8452024735687212
+          ],
+          "n": 209
+        },
+        "1": {
+          "ac1": 0.7504464893523302,
+          "ci": [
+            0.6627027027027026,
+            0.8054444309747983
+          ],
+          "n": 205
+        },
+        "2": {
+          "ac1": 0.66450801229062,
+          "ci": [
+            0.5883761098148541,
+            0.814300324948539
+          ],
+          "n": 208
+        },
+        "3": {
+          "ac1": 0.6608786368378348,
+          "ci": [
+            0.5341014136586026,
+            0.726903083363027
+          ],
+          "n": 207
+        },
+        "4": {
+          "ac1": 0.5423407523613426,
+          "ci": [
+            0.4608509411425511,
+            0.6462296241870086
+          ],
+          "n": 209
+        },
+        "5": {
+          "ac1": 0.7991739420770163,
+          "ci": [
+            0.712682379349046,
+            0.8480680914346314
+          ],
+          "n": 203
+        },
+        "6": {
+          "ac1": 0.5288221394394504,
+          "ci": [
+            0.4043179264583708,
+            0.7414739287952674
+          ],
+          "n": 206
+        },
+        "7": {
+          "ac1": 0.8163017899165655,
+          "ci": [
+            0.716654794130218,
+            0.8651371106042189
+          ],
+          "n": 207
+        },
+        "8": {
+          "ac1": 0.7586770613411759,
+          "ci": [
+            0.6847855456222173,
+            0.8070559523382264
+          ],
+          "n": 204
+        },
+        "9": {
+          "ac1": 0.6792550282554536,
+          "ci": [
+            0.624079435412651,
+            0.7649716298706537
+          ],
+          "n": 207
+        }
+      },
+      "judges": {
+        "anthropic:claude-haiku-4-5-20251001": {
+          "ac1": 0.8120802432414909,
+          "ci": [
+            0.7531978805725213,
+            0.8580446785631303
+          ],
+          "n_pairs_min": 203,
+          "n_pairs_max": 209,
+          "n_answered": 212,
+          "vs_jev": "-0.036 [-0.059, -0.016]"
+        },
+        "anthropic:claude-sonnet-4-5-20250929": {
+          "ac1": 0.8380227891774265,
+          "ci": [
+            0.7809506723452245,
+            0.8704496573450708
+          ],
+          "n_pairs_min": 203,
+          "n_pairs_max": 209,
+          "n_answered": 212,
+          "vs_jev": "-0.010 [-0.077, +0.020] (ns)"
+        },
+        "anthropic:claude-sonnet-5": {
+          "ac1": 0.8197890777925411,
+          "ci": [
+            0.7241844006798728,
+            0.8731555037708716
+          ],
+          "n_pairs_min": 203,
+          "n_pairs_max": 209,
+          "n_answered": 212,
+          "vs_jev": "-0.028 [-0.093, +0.008] (ns)"
+        },
+        "local:qwen36-mtplx": {
+          "ac1": 0.8503952223183188,
+          "ci": [
+            0.7919244468989604,
+            0.8732399123270647
+          ],
+          "n_pairs_min": 203,
+          "n_pairs_max": 209,
+          "n_answered": 212,
+          "vs_jev": "+0.003 [-0.080, +0.058] (ns)"
+        },
+        "openai:gpt-4.1": {
+          "ac1": 0.8780136852244095,
+          "ci": [
+            0.7977509143949438,
+            0.9148167740739674
+          ],
+          "n_pairs_min": 203,
+          "n_pairs_max": 209,
+          "n_answered": 212,
+          "vs_jev": "+0.030 [-0.070, +0.080] (ns)"
+        },
+        "openai:gpt-5.4-mini": {
+          "ac1": 0.8391662141136769,
+          "ci": [
+            0.769249105060171,
+            0.8737880128997769
+          ],
+          "n_pairs_min": 203,
+          "n_pairs_max": 209,
+          "n_answered": 212,
+          "vs_jev": "-0.009 [-0.082, +0.045] (ns)"
+        },
+        "openai:gpt-5.5": {
+          "ac1": 0.8740424252624581,
+          "ci": [
+            0.8093378430009809,
+            0.9134273456668845
+          ],
+          "n_pairs_min": 203,
+          "n_pairs_max": 209,
+          "n_answered": 212,
+          "vs_jev": "+0.026 [-0.054, +0.077] (ns)"
+        },
+        "typesafe:jev-1.13.0": {
+          "ac1": 0.847793235126286,
+          "ci": [
+            0.7856092680445028,
+            0.9050843347328641
+          ],
+          "n_pairs_min": 203,
+          "n_pairs_max": 209,
+          "n_answered": 212,
+          "vs_jev": ""
+        }
+      },
+      "n_transcripts": 7
+    }
+  }
+}
