@@ -34,6 +34,14 @@ this bundle and one of them runs backwards.
 | `reports/independent-replication-*` | A different model family's blind replication, working only from that brief |
 | `code/` | The metric implementations and the scorers: enough to recompute every published number from `runs/` |
 
+The study's limitations are not summarised here. Each one is recorded where the
+evidence for it sits: `docs/CONTAMINATION.md` for which arms are compromised and
+what that does to which figure, `docs/PROVENANCE.md` for who authored each fixture
+and what has been ratified, `docs/THRESHOLDS.md` for which thresholds came from the
+selection rule and which from its fallback, `docs/WHAT_IS_NOT_HERE.md` for what this
+bundle omits, and every report's own caveats. The synthetic reports carry an
+upper-bound notice in their headers.
+
 ## Prompt parity is checkable, not asserted
 
 The study claims every judge was asked an identical question. That claim is a hash.
@@ -55,31 +63,6 @@ Note what the prompts also show: Jev answers these questions **natively**, retur
 a distribution over the same levels; every other judge is asked to **write the
 numbers in JSON**. That difference is real, it is visible in the prompts, and the
 probability-shape tables in `reports/` are about its consequences.
-
-## What we would attack if we were reviewing this
-
-Five weaknesses, stated because a reviewer will find them anyway and because the
-study's own reports already record them:
-
-1. **The synthetic grid is contaminated.** The generator prompt was fed the same
-   level descriptions the judges are scored on applying — whole level names copied
-   verbatim. Every synthetic number is an upper bound, and not uniformly: the
-   inflation most rewards whichever judge follows a written criterion most
-   literally, which is the disposition being measured. `docs/CONTAMINATION.md`
-   prints both sides so you can check this rather than take it from us.
-2. **The clinical phrase bank is compromised too, by a different route.** The
-   keyword lexicon was tuned on those 86 items, and the judges' level descriptions
-   were themselves adapted from a prompt tuned against the same bank. The 84
-   blind-authored arcs and AnnoMI are the two clean arms.
-3. **The strongest set has unratified labels.** The 84 blind-authored crisis arcs
-   were written by a separate model session with no access to the detector, the
-   codebase or the fixtures — genuinely external, and the study's best evidence. But
-   their expected levels are that author's grades, and no clinician has ratified
-   them. See `docs/PROVENANCE.md`.
-4. **Thresholds mostly came from a fallback.** No candidate threshold met the
-   pre-registered constraint for 8 of 9 crisis judges, Jev's included.
-5. **One run each.** No judge was run twice. Differences of one or two items are not
-   results, and the reports say so.
 
 ## AnnoMI is fully replicable from public data
 

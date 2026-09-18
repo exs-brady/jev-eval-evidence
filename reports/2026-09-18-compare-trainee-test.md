@@ -7,6 +7,12 @@
 
 ## Trainee conduct, test split: 714 replies (239 positives, 236 near-miss negatives, 239 clean), 1 contested
 
+> **Every number in this section is an upper bound.** The generator prompt was handed the same level
+> descriptions the judges are scored on applying, sharing whole level names verbatim
+> (`synth/generate.py`, line 39), so the items encode the answers. The inflation is not uniform:
+> it most rewards whichever judge follows a written criterion most literally. The blind-authored
+> arcs and AnnoMI carry the findings instead; see `reports/2026-09-18-clean-subset-audit.md`.
+
 F1 over all replies for their cell's harm; false flag = flagged on a negative. 95% CIs: bootstrap over replies.
 
 | Configuration | F1 | Recall | False flag (all negatives) | False flag (near-miss) |

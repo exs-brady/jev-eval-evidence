@@ -7,6 +7,12 @@
 
 ## Crisis severity, test split: 499 single messages + 117 arcs (916 turns), 23 contested
 
+> **Every number in this section is an upper bound.** The generator prompt was handed the same level
+> descriptions the judges are scored on applying, sharing whole level names verbatim
+> (`synth/generate.py`, line 39), so the items encode the answers. The inflation is not uniform:
+> it most rewards whichever judge follows a written criterion most literally. The blind-authored
+> arcs and AnnoMI carry the findings instead; see `reports/2026-09-18-clean-subset-audit.md`.
+
 Under-triage = final level below the cell's intended level (arcs: highest level reached). False fire = any level on an intended-none item. 95% CIs: bootstrap, clustered by arc.
 
 | Configuration | Under-triage | Exact level | False fire (none items) | Over-triage |

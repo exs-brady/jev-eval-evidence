@@ -7,6 +7,12 @@
 
 ## Omission (never asked directly), test split: 98 arcs, 4 contested
 
+> **Every number in this section is an upper bound.** The generator prompt was handed the same level
+> descriptions the judges are scored on applying, sharing whole level names verbatim
+> (`synth/generate.py`, line 39), so the items encode the answers. The inflation is not uniform:
+> it most rewards whichever judge follows a written criterion most literally. The blind-authored
+> arcs and AnnoMI carry the findings instead; see `reports/2026-09-18-clean-subset-audit.md`.
+
 Fires when a disclosure has happened (regex or P(disclosed) ≥ 0.5) and `grace` trainee turns pass with P(asked directly) < 0.5. Accuracy = fired iff the arc's cell says the trainee never asks. The regex floor has no omission detector.
 
 | Judge | Arcs | Accuracy | False fire (asks arcs) |

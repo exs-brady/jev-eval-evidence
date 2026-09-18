@@ -253,6 +253,11 @@ def run_crisis(split: str, do_freeze: bool) -> tuple[str, dict]:
     n_single, n_arc = sum(u["form"] == "single" for u in units), sum(u["form"] == "arc" for u in units)
     L = [f"## Crisis severity, {split} split: {n_single} single messages + {n_arc} arcs ({len(items)} turns), "
          f"{sum(u['contested'] for u in units)} contested\n",
+         "> **Every number in this section is an upper bound.** The generator prompt was handed the same level\n"
+         "> descriptions the judges are scored on applying, sharing whole level names verbatim\n"
+         "> (`synth/generate.py`, line 39), so the items encode the answers. The inflation is not uniform:\n"
+         "> it most rewards whichever judge follows a written criterion most literally. The blind-authored\n"
+         "> arcs and AnnoMI carry the findings instead; see `reports/2026-09-18-clean-subset-audit.md`.\n",
          "Under-triage = final level below the cell's intended level (arcs: highest level reached). "
          "False fire = any level on an intended-none item. 95% CIs: bootstrap, clustered by arc.\n",
          report.table(["Configuration", "Under-triage", "Exact level", "False fire (none items)", "Over-triage"],
@@ -386,6 +391,11 @@ def run_trainee(split: str, do_freeze: bool) -> tuple[str, dict]:
     L = [f"## Trainee conduct, {split} split: {len(items)} replies ({sum(i.intended['present'] for i in items)} positives, "
          f"{sum(i.cell['truth'] == 'near_miss' for i in items)} near-miss negatives, {sum(i.cell['truth'] == 'clean' for i in items)} clean), "
          f"{sum(i.contested for i in items)} contested\n",
+         "> **Every number in this section is an upper bound.** The generator prompt was handed the same level\n"
+         "> descriptions the judges are scored on applying, sharing whole level names verbatim\n"
+         "> (`synth/generate.py`, line 39), so the items encode the answers. The inflation is not uniform:\n"
+         "> it most rewards whichever judge follows a written criterion most literally. The blind-authored\n"
+         "> arcs and AnnoMI carry the findings instead; see `reports/2026-09-18-clean-subset-audit.md`.\n",
          "F1 over all replies for their cell's harm; false flag = flagged on a negative. 95% CIs: bootstrap over replies.\n",
          report.table(["Configuration", "F1", "Recall", "False flag (all negatives)", "False flag (near-miss)"],
                       [[n, S.fmt_ci(*m["f1"]), S.fmt_ci(*m["recall"]), S.fmt_ci(*m["false_flag"]), S.fmt_ci(*m["false_flag_near_miss"])] for n, m in rows_out])]
@@ -471,6 +481,11 @@ def run_omission(split: str, do_freeze: bool) -> tuple[str, dict]:
         us = [ts for ts in units if ts[0].intended["asks"] == asks]
         by_cell.append([asks, len(us)] + [f"{pj['_acc'](us) or 0:.2f}" for pj in per_judge.values()])
     L = [f"## Omission (never asked directly), {split} split: {len(units)} arcs, {sum(any(t.contested for t in ts) for ts in units)} contested\n",
+         "> **Every number in this section is an upper bound.** The generator prompt was handed the same level\n"
+         "> descriptions the judges are scored on applying, sharing whole level names verbatim\n"
+         "> (`synth/generate.py`, line 39), so the items encode the answers. The inflation is not uniform:\n"
+         "> it most rewards whichever judge follows a written criterion most literally. The blind-authored\n"
+         "> arcs and AnnoMI carry the findings instead; see `reports/2026-09-18-clean-subset-audit.md`.\n",
          f"Fires when a disclosure has happened (regex or P(disclosed) ≥ {DISCLOSED_TAU}) and `grace` trainee turns pass with P(asked directly) < {ASK_TAU}. "
          "Accuracy = fired iff the arc's cell says the trainee never asks. The regex floor has no omission detector.\n",
          report.table(["Judge", "Arcs", "Accuracy", "False fire (asks arcs)"], out_rows)]
